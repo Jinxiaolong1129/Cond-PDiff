@@ -1,0 +1,42 @@
+training_parameters:
+  ddpm_eval_epoch: 10
+  ddpm_save_epoch: 1000
+  ddpm_start_epoch: 1
+  ddpm_end_epoch: 12000
+  batch_size: 256
+  
+  lr: 0.001
+  patience: 5000
+
+  optimizer: 'Adam'
+  loss_function: 'MSE'
+  metrics: ['accuracy']
+
+  weight_decay: 2e-6
+
+
+  ddpm_test: false
+  test_similarity: false
+
+
+model_mean_type: eps
+model_var_type: fixedlarge
+loss_type: mse
+
+
+model_parameters:
+  in_channel: 1
+  in_dim: 12
+  num_conditions: 2
+  cond_emb_size: 512
+
+
+beta_schedule:
+  start: 1e-4
+  end: 2e-2
+  schedule: linear
+  n_timestep: 1000
+
+
+glue_test_parameters:
+  config_path: 'config/multiple/glue.json'

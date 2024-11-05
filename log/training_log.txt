@@ -1,0 +1,1213 @@
+[auto encoder][Epoch 0] autoencoder training loss: 0.2487390860915184
+[auto encoder][Epoch 1] autoencoder training loss: 0.1073090061545372
+[auto encoder][Epoch 0] autoencoder training loss: 0.2741137742996216
+[auto encoder][Epoch 1] autoencoder training loss: 0.11254750937223434
+[auto encoder][Epoch 2] autoencoder training loss: 0.0666842944920063
+[auto encoder][Epoch 3] autoencoder training loss: 0.04523966647684574
+[auto encoder][Epoch 4] autoencoder training loss: 0.032717738300561905
+[auto encoder][Epoch 5] autoencoder training loss: 0.02463777270168066
+[auto encoder][Epoch 6] autoencoder training loss: 0.01880825310945511
+[auto encoder][Epoch 7] autoencoder training loss: 0.014791928697377443
+[auto encoder][Epoch 8] autoencoder training loss: 0.011792827863246202
+[auto encoder][Epoch 9] autoencoder training loss: 0.00964263640344143
+[auto encoder][Epoch 10] autoencoder training loss: 0.008230001665651798
+[auto encoder][Epoch 11] autoencoder training loss: 0.007269065594300628
+[auto encoder][Epoch 12] autoencoder training loss: 0.006482129218056798
+[auto encoder][Epoch 13] autoencoder training loss: 0.005753924837335944
+[auto encoder][Epoch 14] autoencoder training loss: 0.005062741693109274
+[auto encoder][Epoch 15] autoencoder training loss: 0.004407919943332672
+[auto encoder][Epoch 16] autoencoder training loss: 0.0038918647915124893
+[auto encoder][Epoch 17] autoencoder training loss: 0.003492214949801564
+[auto encoder][Epoch 18] autoencoder training loss: 0.00314260006416589
+[auto encoder][Epoch 19] autoencoder training loss: 0.0028272044146433473
+[auto encoder][Epoch 20] autoencoder training loss: 0.002548864809796214
+[auto encoder][Epoch 21] autoencoder training loss: 0.002321496489457786
+[auto encoder][Epoch 22] autoencoder training loss: 0.002126351580955088
+[auto encoder][Epoch 23] autoencoder training loss: 0.001966716372407973
+[auto encoder][Epoch 24] autoencoder training loss: 0.0018416428356431425
+[auto encoder][Epoch 25] autoencoder training loss: 0.0017329987022094429
+[auto encoder][Epoch 26] autoencoder training loss: 0.0016429465031251311
+[auto encoder][Epoch 27] autoencoder training loss: 0.0015591594856232405
+[auto encoder][Epoch 28] autoencoder training loss: 0.0014902888215146959
+[auto encoder][Epoch 29] autoencoder training loss: 0.001419114414602518
+[auto encoder][Epoch 30] autoencoder training loss: 0.001354601641651243
+[auto encoder][Epoch 31] autoencoder training loss: 0.0013050498673692346
+[auto encoder][Epoch 32] autoencoder training loss: 0.0012540539028123021
+[auto encoder][Epoch 33] autoencoder training loss: 0.001209138019476086
+[auto encoder][Epoch 34] autoencoder training loss: 0.0011698499438352883
+[auto encoder][Epoch 35] autoencoder training loss: 0.0011329695698805153
+[auto encoder][Epoch 36] autoencoder training loss: 0.0010982461390085518
+[auto encoder][Epoch 37] autoencoder training loss: 0.0010685260640457273
+[auto encoder][Epoch 38] autoencoder training loss: 0.0010414760909043252
+[auto encoder][Epoch 39] autoencoder training loss: 0.0010143753024749458
+[auto encoder][Epoch 40] autoencoder training loss: 0.0009878419805318117
+[auto encoder][Epoch 41] autoencoder training loss: 0.0009658110502641648
+[auto encoder][Epoch 42] autoencoder training loss: 0.0009405107120983303
+[auto encoder][Epoch 43] autoencoder training loss: 0.000919445650652051
+[auto encoder][Epoch 44] autoencoder training loss: 0.0008970205381046981
+[auto encoder][Epoch 45] autoencoder training loss: 0.0008805687539279461
+[auto encoder][Epoch 46] autoencoder training loss: 0.0008578783308621496
+[auto encoder][Epoch 47] autoencoder training loss: 0.0008407123095821589
+[auto encoder][Epoch 48] autoencoder training loss: 0.0008237609581556171
+[auto encoder][Epoch 49] autoencoder training loss: 0.0008090468472801149
+[auto encoder][Epoch 50] autoencoder training loss: 0.0007939003116916865
+[auto encoder][Epoch 51] autoencoder training loss: 0.0007804043707437813
+[auto encoder][Epoch 52] autoencoder training loss: 0.000766568846302107
+[auto encoder][Epoch 53] autoencoder training loss: 0.0007539855723734945
+[auto encoder][Epoch 54] autoencoder training loss: 0.0007402726332657039
+[auto encoder][Epoch 55] autoencoder training loss: 0.0007311600202228874
+[auto encoder][Epoch 56] autoencoder training loss: 0.0007190768083091825
+[auto encoder][Epoch 57] autoencoder training loss: 0.0007076095789670944
+[auto encoder][Epoch 58] autoencoder training loss: 0.0006996898155193776
+[auto encoder][Epoch 59] autoencoder training loss: 0.0006902182649355382
+[auto encoder][Epoch 60] autoencoder training loss: 0.0006800383562222123
+[auto encoder][Epoch 61] autoencoder training loss: 0.0006706366548314691
+[auto encoder][Epoch 62] autoencoder training loss: 0.0006627449183724821
+[auto encoder][Epoch 63] autoencoder training loss: 0.0006531976687256247
+[auto encoder][Epoch 64] autoencoder training loss: 0.0006459968572016805
+[auto encoder][Epoch 65] autoencoder training loss: 0.000639567559119314
+[auto encoder][Epoch 66] autoencoder training loss: 0.0006302195251919329
+[auto encoder][Epoch 67] autoencoder training loss: 0.0006247828423511237
+[auto encoder][Epoch 68] autoencoder training loss: 0.0006165285885799676
+[auto encoder][Epoch 69] autoencoder training loss: 0.000608824979281053
+[auto encoder][Epoch 70] autoencoder training loss: 0.0006032456294633448
+[auto encoder][Epoch 71] autoencoder training loss: 0.0005972618819214404
+[auto encoder][Epoch 72] autoencoder training loss: 0.0005902095581404865
+[auto encoder][Epoch 73] autoencoder training loss: 0.000584840279771015
+[auto encoder][Epoch 74] autoencoder training loss: 0.0005793989112135023
+[auto encoder][Epoch 75] autoencoder training loss: 0.0005742194480262697
+[auto encoder][Epoch 76] autoencoder training loss: 0.0005686918448191136
+[auto encoder][Epoch 77] autoencoder training loss: 0.0005628083017654717
+[auto encoder][Epoch 78] autoencoder training loss: 0.0005572584923356771
+[auto encoder][Epoch 79] autoencoder training loss: 0.0005524136649910361
+[auto encoder][Epoch 80] autoencoder training loss: 0.0005475945945363492
+[auto encoder][Epoch 81] autoencoder training loss: 0.0005438167718239129
+[auto encoder][Epoch 82] autoencoder training loss: 0.0005384667601902038
+[auto encoder][Epoch 83] autoencoder training loss: 0.0005359712813515216
+[auto encoder][Epoch 84] autoencoder training loss: 0.0005314987211022526
+[auto encoder][Epoch 85] autoencoder training loss: 0.0005263076454866678
+[auto encoder][Epoch 86] autoencoder training loss: 0.000523816590430215
+[auto encoder][Epoch 87] autoencoder training loss: 0.0005189111107029021
+[auto encoder][Epoch 88] autoencoder training loss: 0.0005151222576387227
+[auto encoder][Epoch 89] autoencoder training loss: 0.0005124310846440494
+[auto encoder][Epoch 90] autoencoder training loss: 0.0005080051196273416
+[auto encoder][Epoch 91] autoencoder training loss: 0.0005053615604992956
+[auto encoder][Epoch 92] autoencoder training loss: 0.0005015796632505953
+[auto encoder][Epoch 93] autoencoder training loss: 0.0004976458440069109
+[auto encoder][Epoch 94] autoencoder training loss: 0.0004955411422997713
+[auto encoder][Epoch 95] autoencoder training loss: 0.0004914926248602569
+[auto encoder][Epoch 96] autoencoder training loss: 0.0004886949900537729
+[auto encoder][Epoch 97] autoencoder training loss: 0.00048646051436662674
+[auto encoder][Epoch 98] autoencoder training loss: 0.00048386375419795513
+[auto encoder][Epoch 99] autoencoder training loss: 0.0004810292593901977
+[auto encoder][Epoch 100] autoencoder training loss: 0.0004766744241351262
+[auto encoder][Epoch 101] autoencoder training loss: 0.00047436883323825896
+[auto encoder][Epoch 102] autoencoder training loss: 0.00047210094635374844
+[auto encoder][Epoch 103] autoencoder training loss: 0.0004693139489972964
+[auto encoder][Epoch 104] autoencoder training loss: 0.00046689681767020375
+[auto encoder][Epoch 105] autoencoder training loss: 0.0004643762222258374
+[auto encoder][Epoch 106] autoencoder training loss: 0.0004619595274562016
+[auto encoder][Epoch 107] autoencoder training loss: 0.0004605559661285952
+[auto encoder][Epoch 108] autoencoder training loss: 0.0004575616185320541
+[auto encoder][Epoch 109] autoencoder training loss: 0.00045368548308033496
+[auto encoder][Epoch 110] autoencoder training loss: 0.0004531432641670108
+[auto encoder][Epoch 111] autoencoder training loss: 0.0004502959782257676
+[auto encoder][Epoch 112] autoencoder training loss: 0.00044824255746789277
+[auto encoder][Epoch 113] autoencoder training loss: 0.00044599252578336746
+[auto encoder][Epoch 114] autoencoder training loss: 0.000443546348833479
+[auto encoder][Epoch 115] autoencoder training loss: 0.0004406563093652949
+[auto encoder][Epoch 116] autoencoder training loss: 0.0004388677916722372
+[auto encoder][Epoch 117] autoencoder training loss: 0.0004376489232527092
+[auto encoder][Epoch 118] autoencoder training loss: 0.0004345906199887395
+[auto encoder][Epoch 119] autoencoder training loss: 0.0004326959024183452
+[auto encoder][Epoch 120] autoencoder training loss: 0.0004314949765102938
+[auto encoder][Epoch 121] autoencoder training loss: 0.0004293552483431995
+[auto encoder][Epoch 122] autoencoder training loss: 0.0004267921613063663
+[auto encoder][Epoch 123] autoencoder training loss: 0.00042398525692988187
+[auto encoder][Epoch 124] autoencoder training loss: 0.00042375936754979193
+[auto encoder][Epoch 125] autoencoder training loss: 0.00042182310426142067
+[auto encoder][Epoch 126] autoencoder training loss: 0.0004194492648821324
+[auto encoder][Epoch 127] autoencoder training loss: 0.0004184858262306079
+[auto encoder][Epoch 128] autoencoder training loss: 0.0004167630249867216
+[auto encoder][Epoch 129] autoencoder training loss: 0.0004152155597694218
+[auto encoder][Epoch 130] autoencoder training loss: 0.00041317095747217536
+[auto encoder][Epoch 131] autoencoder training loss: 0.0004122152167838067
+[auto encoder][Epoch 132] autoencoder training loss: 0.0004109149449504912
+[auto encoder][Epoch 133] autoencoder training loss: 0.00040936445293482393
+[auto encoder][Epoch 134] autoencoder training loss: 0.00040702158003114164
+[auto encoder][Epoch 135] autoencoder training loss: 0.00040544224611949176
+[auto encoder][Epoch 136] autoencoder training loss: 0.00040429098589811474
+[auto encoder][Epoch 137] autoencoder training loss: 0.0004032037977594882
+[auto encoder][Epoch 138] autoencoder training loss: 0.00040096029988490045
+[auto encoder][Epoch 139] autoencoder training loss: 0.0004002242349088192
+[auto encoder][Epoch 140] autoencoder training loss: 0.000398401782149449
+[auto encoder][Epoch 141] autoencoder training loss: 0.0003974346327595413
+[auto encoder][Epoch 142] autoencoder training loss: 0.00039530031790491194
+[auto encoder][Epoch 143] autoencoder training loss: 0.00039409608871210366
+[auto encoder][Epoch 144] autoencoder training loss: 0.0003925576893379912
+[auto encoder][Epoch 145] autoencoder training loss: 0.0003923272161046043
+[auto encoder][Epoch 146] autoencoder training loss: 0.00039038705290295184
+[auto encoder][Epoch 147] autoencoder training loss: 0.00038934219628572464
+[auto encoder][Epoch 148] autoencoder training loss: 0.00038843307993374765
+[auto encoder][Epoch 149] autoencoder training loss: 0.00038614806544501334
+[auto encoder][Epoch 150] autoencoder training loss: 0.0003857135016005486
+[auto encoder][Epoch 151] autoencoder training loss: 0.0003855105896946043
+[auto encoder][Epoch 152] autoencoder training loss: 0.00038366283115465194
+[auto encoder][Epoch 153] autoencoder training loss: 0.0003830309578916058
+[auto encoder][Epoch 154] autoencoder training loss: 0.0003815213858615607
+[auto encoder][Epoch 155] autoencoder training loss: 0.0003800040576606989
+[auto encoder][Epoch 156] autoencoder training loss: 0.0003796327073359862
+[auto encoder][Epoch 157] autoencoder training loss: 0.0003777730307774618
+[auto encoder][Epoch 158] autoencoder training loss: 0.00037757112295366824
+[auto encoder][Epoch 159] autoencoder training loss: 0.000375538831576705
+[auto encoder][Epoch 160] autoencoder training loss: 0.0003754109638975933
+[auto encoder][Epoch 161] autoencoder training loss: 0.00037472028634510934
+[auto encoder][Epoch 162] autoencoder training loss: 0.0003726628638105467
+[auto encoder][Epoch 163] autoencoder training loss: 0.00037179244100116193
+[auto encoder][Epoch 164] autoencoder training loss: 0.00037099506880622357
+[auto encoder][Epoch 165] autoencoder training loss: 0.0003701908281072974
+[auto encoder][Epoch 166] autoencoder training loss: 0.00036884368455503136
+[auto encoder][Epoch 167] autoencoder training loss: 0.0003678059292724356
+[auto encoder][Epoch 168] autoencoder training loss: 0.0003666899719974026
+[auto encoder][Epoch 169] autoencoder training loss: 0.00036656457814387977
+[auto encoder][Epoch 170] autoencoder training loss: 0.0003654351021395996
+[auto encoder][Epoch 171] autoencoder training loss: 0.0003643566305981949
+[auto encoder][Epoch 172] autoencoder training loss: 0.0003641576040536165
+[auto encoder][Epoch 173] autoencoder training loss: 0.00036247751268092543
+[auto encoder][Epoch 174] autoencoder training loss: 0.00036175394780002534
+[auto encoder][Epoch 175] autoencoder training loss: 0.00036043059662915766
+[auto encoder][Epoch 176] autoencoder training loss: 0.000360310819814913
+[auto encoder][Epoch 177] autoencoder training loss: 0.0003577046445570886
+[auto encoder][Epoch 178] autoencoder training loss: 0.00035825089435093105
+[auto encoder][Epoch 179] autoencoder training loss: 0.0003569413674995303
+[auto encoder][Epoch 180] autoencoder training loss: 0.0003562818455975503
+[auto encoder][Epoch 181] autoencoder training loss: 0.00035496715281624347
+[auto encoder][Epoch 182] autoencoder training loss: 0.00035525739076547325
+[auto encoder][Epoch 183] autoencoder training loss: 0.0003533492999849841
+[auto encoder][Epoch 184] autoencoder training loss: 0.0003524805069901049
+[auto encoder][Epoch 185] autoencoder training loss: 0.0003521623439155519
+[auto encoder][Epoch 186] autoencoder training loss: 0.0003512756811687723
+[auto encoder][Epoch 187] autoencoder training loss: 0.00035045975528191775
+[auto encoder][Epoch 188] autoencoder training loss: 0.00034962875361088663
+[auto encoder][Epoch 189] autoencoder training loss: 0.0003480689774733037
+[auto encoder][Epoch 190] autoencoder training loss: 0.0003476593556115404
+[auto encoder][Epoch 191] autoencoder training loss: 0.00034617802884895355
+[auto encoder][Epoch 192] autoencoder training loss: 0.00034569996932987124
+[auto encoder][Epoch 193] autoencoder training loss: 0.00034486369986552745
+[auto encoder][Epoch 194] autoencoder training loss: 0.00034491422411520034
+[auto encoder][Epoch 195] autoencoder training loss: 0.0003435697144595906
+[auto encoder][Epoch 196] autoencoder training loss: 0.0003430073556955904
+[auto encoder][Epoch 197] autoencoder training loss: 0.00034190491714980453
+[auto encoder][Epoch 198] autoencoder training loss: 0.00034164023236371577
+[auto encoder][Epoch 199] autoencoder training loss: 0.0003405256138648838
+[auto encoder][Epoch 200] autoencoder training loss: 0.00034074105496983975
+[auto encoder][Epoch 201] autoencoder training loss: 0.00033874141809064895
+[auto encoder][Epoch 202] autoencoder training loss: 0.0003384321607882157
+[auto encoder][Epoch 203] autoencoder training loss: 0.0003381940914550796
+[auto encoder][Epoch 204] autoencoder training loss: 0.00033781377715058625
+[auto encoder][Epoch 205] autoencoder training loss: 0.000336118318955414
+[auto encoder][Epoch 206] autoencoder training loss: 0.0003359166585141793
+[auto encoder][Epoch 207] autoencoder training loss: 0.0003350996266817674
+[auto encoder][Epoch 208] autoencoder training loss: 0.00033518008422106504
+[auto encoder][Epoch 209] autoencoder training loss: 0.00033433637872803956
+[auto encoder][Epoch 210] autoencoder training loss: 0.00033337635977659374
+[auto encoder][Epoch 211] autoencoder training loss: 0.000332740688463673
+[auto encoder][Epoch 212] autoencoder training loss: 0.00033222747151739895
+[auto encoder][Epoch 213] autoencoder training loss: 0.000331579489284195
+[auto encoder][Epoch 214] autoencoder training loss: 0.000331018483848311
+[auto encoder][Epoch 215] autoencoder training loss: 0.0003293756162747741
+[auto encoder][Epoch 216] autoencoder training loss: 0.0003293743502581492
+[auto encoder][Epoch 217] autoencoder training loss: 0.00032870133873075247
+[auto encoder][Epoch 218] autoencoder training loss: 0.0003279816883150488
+[auto encoder][Epoch 219] autoencoder training loss: 0.00032769664539955556
+[auto encoder][Epoch 220] autoencoder training loss: 0.0003276534262113273
+[auto encoder][Epoch 221] autoencoder training loss: 0.0003270472661824897
+[auto encoder][Epoch 222] autoencoder training loss: 0.00032562307023908943
+[auto encoder][Epoch 223] autoencoder training loss: 0.0003250869922339916
+[auto encoder][Epoch 224] autoencoder training loss: 0.0003243817773181945
+[auto encoder][Epoch 225] autoencoder training loss: 0.0003242890379624441
+[auto encoder][Epoch 226] autoencoder training loss: 0.000323402535286732
+[auto encoder][Epoch 227] autoencoder training loss: 0.0003229445719625801
+[auto encoder][Epoch 228] autoencoder training loss: 0.00032198884582612664
+[auto encoder][Epoch 229] autoencoder training loss: 0.0003214777243556455
+[auto encoder][Epoch 230] autoencoder training loss: 0.0003207673435099423
+[auto encoder][Epoch 231] autoencoder training loss: 0.00031957461033016443
+[auto encoder][Epoch 232] autoencoder training loss: 0.00031927431700751185
+[auto encoder][Epoch 233] autoencoder training loss: 0.0003183019143762067
+[auto encoder][Epoch 234] autoencoder training loss: 0.0003182946966262534
+[auto encoder][Epoch 235] autoencoder training loss: 0.000317753161652945
+[auto encoder][Epoch 236] autoencoder training loss: 0.00031766993924975395
+[auto encoder][Epoch 237] autoencoder training loss: 0.0003171791322529316
+[auto encoder][Epoch 238] autoencoder training loss: 0.00031679298263043165
+[auto encoder][Epoch 239] autoencoder training loss: 0.0003161867498420179
+[auto encoder][Epoch 240] autoencoder training loss: 0.0003150195989292115
+[auto encoder][Epoch 241] autoencoder training loss: 0.0003139153413940221
+[auto encoder][Epoch 242] autoencoder training loss: 0.0003138511237921193
+[auto encoder][Epoch 243] autoencoder training loss: 0.000312523654429242
+[auto encoder][Epoch 244] autoencoder training loss: 0.00031332409707829356
+[auto encoder][Epoch 245] autoencoder training loss: 0.0003121312183793634
+[auto encoder][Epoch 246] autoencoder training loss: 0.00031101162312552333
+[auto encoder][Epoch 247] autoencoder training loss: 0.00031091277196537703
+[auto encoder][Epoch 248] autoencoder training loss: 0.0003106778167420998
+[auto encoder][Epoch 249] autoencoder training loss: 0.00030950584914535284
+[auto encoder][Epoch 250] autoencoder training loss: 0.0003096070286119357
+[auto encoder][Epoch 251] autoencoder training loss: 0.0003094413987128064
+[auto encoder][Epoch 252] autoencoder training loss: 0.0003086292854277417
+[auto encoder][Epoch 253] autoencoder training loss: 0.00030721418443135917
+[auto encoder][Epoch 254] autoencoder training loss: 0.00030646289815194905
+[auto encoder][Epoch 255] autoencoder training loss: 0.00030660085030831397
+[auto encoder][Epoch 256] autoencoder training loss: 0.000305060762912035
+[auto encoder][Epoch 257] autoencoder training loss: 0.0003054516128031537
+[auto encoder][Epoch 258] autoencoder training loss: 0.00030503852758556604
+[auto encoder][Epoch 259] autoencoder training loss: 0.0003040232841158286
+[auto encoder][Epoch 260] autoencoder training loss: 0.00030303659150376916
+[auto encoder][Epoch 261] autoencoder training loss: 0.00030303155654110014
+[auto encoder][Epoch 262] autoencoder training loss: 0.0003025597397936508
+[auto encoder][Epoch 263] autoencoder training loss: 0.0003025172190973535
+[auto encoder][Epoch 264] autoencoder training loss: 0.00030140245507936925
+[auto encoder][Epoch 265] autoencoder training loss: 0.00030134183180052787
+[auto encoder][Epoch 266] autoencoder training loss: 0.0003001554578077048
+[auto encoder][Epoch 267] autoencoder training loss: 0.0002995978866238147
+[auto encoder][Epoch 268] autoencoder training loss: 0.0002999312855536118
+[auto encoder][Epoch 269] autoencoder training loss: 0.00029898222419433296
+[auto encoder][Epoch 270] autoencoder training loss: 0.00029790299595333636
+[auto encoder][Epoch 271] autoencoder training loss: 0.00029830173298250884
+[auto encoder][Epoch 272] autoencoder training loss: 0.0002981651632580906
+[auto encoder][Epoch 273] autoencoder training loss: 0.0002970572386402637
+[auto encoder][Epoch 274] autoencoder training loss: 0.00029682063905056566
+[auto encoder][Epoch 275] autoencoder training loss: 0.0002951743081212044
+[auto encoder][Epoch 276] autoencoder training loss: 0.00029548075690399855
+[auto encoder][Epoch 277] autoencoder training loss: 0.000295515957986936
+[auto encoder][Epoch 278] autoencoder training loss: 0.00029421613726299256
+[auto encoder][Epoch 279] autoencoder training loss: 0.0002940617996500805
+[auto encoder][Epoch 280] autoencoder training loss: 0.00029314079438336194
+[auto encoder][Epoch 281] autoencoder training loss: 0.00029232400993350893
+[auto encoder][Epoch 282] autoencoder training loss: 0.0002929519978351891
+[auto encoder][Epoch 283] autoencoder training loss: 0.00029213329253252596
+[auto encoder][Epoch 284] autoencoder training loss: 0.00029073368932586163
+[auto encoder][Epoch 285] autoencoder training loss: 0.00029094942146912217
+[auto encoder][Epoch 286] autoencoder training loss: 0.0002909711474785581
+[auto encoder][Epoch 287] autoencoder training loss: 0.00028963066870346665
+[auto encoder][Epoch 288] autoencoder training loss: 0.00028954120352864265
+[auto encoder][Epoch 289] autoencoder training loss: 0.0002892032061936334
+[auto encoder][Epoch 290] autoencoder training loss: 0.000288765731966123
+[auto encoder][Epoch 291] autoencoder training loss: 0.0002888442832045257
+[auto encoder][Epoch 292] autoencoder training loss: 0.00028792476223316044
+[auto encoder][Epoch 293] autoencoder training loss: 0.00028718565590679646
+[auto encoder][Epoch 294] autoencoder training loss: 0.0002867406001314521
+[auto encoder][Epoch 295] autoencoder training loss: 0.0002856189967133105
+[auto encoder][Epoch 296] autoencoder training loss: 0.00028534242301248014
+[auto encoder][Epoch 297] autoencoder training loss: 0.0002849463635357097
+[auto encoder][Epoch 298] autoencoder training loss: 0.0002847059222403914
+[auto encoder][Epoch 299] autoencoder training loss: 0.00028420401213224977
+[auto encoder][Epoch 300] autoencoder training loss: 0.0002847619034582749
+[auto encoder][Epoch 301] autoencoder training loss: 0.0002834715851349756
+[auto encoder][Epoch 302] autoencoder training loss: 0.0002836230560205877
+[auto encoder][Epoch 303] autoencoder training loss: 0.0002822606766130775
+[auto encoder][Epoch 304] autoencoder training loss: 0.0002826219715643674
+[auto encoder][Epoch 305] autoencoder training loss: 0.00028085372468922287
+[auto encoder][Epoch 306] autoencoder training loss: 0.00028067006496712565
+[auto encoder][Epoch 307] autoencoder training loss: 0.0002804223622661084
+[auto encoder][Epoch 308] autoencoder training loss: 0.0002801392402034253
+[auto encoder][Epoch 309] autoencoder training loss: 0.0002799520443659276
+[auto encoder][Epoch 310] autoencoder training loss: 0.00027933654200751334
+[auto encoder][Epoch 311] autoencoder training loss: 0.0002792773739201948
+[auto encoder][Epoch 312] autoencoder training loss: 0.00027937661798205227
+[auto encoder][Epoch 313] autoencoder training loss: 0.00027902731380891055
+[auto encoder][Epoch 314] autoencoder training loss: 0.0002779881760943681
+[auto encoder][Epoch 315] autoencoder training loss: 0.00027780157688539475
+[auto encoder][Epoch 316] autoencoder training loss: 0.00027717489865608513
+[auto encoder][Epoch 317] autoencoder training loss: 0.00027600134490057826
+[auto encoder][Epoch 318] autoencoder training loss: 0.0002760997449513525
+[auto encoder][Epoch 319] autoencoder training loss: 0.00027586751093622297
+[auto encoder][Epoch 320] autoencoder training loss: 0.00027448826585896313
+[auto encoder][Epoch 321] autoencoder training loss: 0.00027455574308987707
+[auto encoder][Epoch 322] autoencoder training loss: 0.0002732688735704869
+[auto encoder][Epoch 323] autoencoder training loss: 0.00027372447948437184
+[auto encoder][Epoch 324] autoencoder training loss: 0.00027327211864758283
+[auto encoder][Epoch 325] autoencoder training loss: 0.0002728255494730547
+[auto encoder][Epoch 326] autoencoder training loss: 0.00027242368378210813
+[auto encoder][Epoch 327] autoencoder training loss: 0.000271854514721781
+[auto encoder][Epoch 328] autoencoder training loss: 0.0002712787681957707
+[auto encoder][Epoch 329] autoencoder training loss: 0.000270941382041201
+[auto encoder][Epoch 330] autoencoder training loss: 0.0002697899763006717
+[auto encoder][Epoch 331] autoencoder training loss: 0.00026930194871965796
+[auto encoder][Epoch 332] autoencoder training loss: 0.00026959051319863647
+[auto encoder][Epoch 333] autoencoder training loss: 0.00026892643654718995
+[auto encoder][Epoch 334] autoencoder training loss: 0.0002679164754226804
+[auto encoder][Epoch 335] autoencoder training loss: 0.0002674666902748868
+[auto encoder][Epoch 336] autoencoder training loss: 0.0002679796889424324
+[auto encoder][Epoch 337] autoencoder training loss: 0.0002672245173016563
+[auto encoder][Epoch 338] autoencoder training loss: 0.0002665810607140884
+[auto encoder][Epoch 339] autoencoder training loss: 0.00026606042229104787
+[auto encoder][Epoch 340] autoencoder training loss: 0.00026600896671880037
+[auto encoder][Epoch 341] autoencoder training loss: 0.00026634856476448476
+[auto encoder][Epoch 342] autoencoder training loss: 0.00026465539122000337
+[auto encoder][Epoch 343] autoencoder training loss: 0.00026476223138161004
+[auto encoder][Epoch 344] autoencoder training loss: 0.0002640263846842572
+[auto encoder][Epoch 345] autoencoder training loss: 0.0002641379105625674
+[auto encoder][Epoch 346] autoencoder training loss: 0.00026341492775827646
+[auto encoder][Epoch 347] autoencoder training loss: 0.00026299364981241524
+[auto encoder][Epoch 348] autoencoder training loss: 0.00026294082636013627
+[auto encoder][Epoch 349] autoencoder training loss: 0.0002613338001538068
+[auto encoder][Epoch 350] autoencoder training loss: 0.00026226587942801416
+[auto encoder][Epoch 351] autoencoder training loss: 0.0002605990885058418
+[auto encoder][Epoch 352] autoencoder training loss: 0.00026048795552924275
+[auto encoder][Epoch 353] autoencoder training loss: 0.0002596621197881177
+[auto encoder][Epoch 354] autoencoder training loss: 0.0002603862667456269
+[auto encoder][Epoch 355] autoencoder training loss: 0.00025982641091104597
+[auto encoder][Epoch 356] autoencoder training loss: 0.0002584059111541137
+[auto encoder][Epoch 357] autoencoder training loss: 0.00025839645240921527
+[auto encoder][Epoch 358] autoencoder training loss: 0.00025819934671744704
+[auto encoder][Epoch 359] autoencoder training loss: 0.00025853593251667917
+[auto encoder][Epoch 360] autoencoder training loss: 0.0002568066120147705
+[auto encoder][Epoch 361] autoencoder training loss: 0.0002570464857853949
+[auto encoder][Epoch 362] autoencoder training loss: 0.0002566827752161771
+[auto encoder][Epoch 363] autoencoder training loss: 0.0002559293934609741
+[auto encoder][Epoch 364] autoencoder training loss: 0.0002560404682299122
+[auto encoder][Epoch 365] autoencoder training loss: 0.00025520604685880244
+[auto encoder][Epoch 366] autoencoder training loss: 0.0002546258911024779
+[auto encoder][Epoch 367] autoencoder training loss: 0.0002546177856856957
+[auto encoder][Epoch 368] autoencoder training loss: 0.0002528976619942114
+[auto encoder][Epoch 369] autoencoder training loss: 0.00025377680140081793
+[auto encoder][Epoch 370] autoencoder training loss: 0.0002528743934817612
+[auto encoder][Epoch 371] autoencoder training loss: 0.0002523138973629102
+[auto encoder][Epoch 372] autoencoder training loss: 0.00025238738453481346
+[auto encoder][Epoch 373] autoencoder training loss: 0.00025204378471244127
+[auto encoder][Epoch 374] autoencoder training loss: 0.00025147851556539536
+[auto encoder][Epoch 375] autoencoder training loss: 0.00025155818730127066
+[auto encoder][Epoch 376] autoencoder training loss: 0.00025098741753026843
+[auto encoder][Epoch 377] autoencoder training loss: 0.0002503940340830013
+[auto encoder][Epoch 378] autoencoder training loss: 0.0002506384626030922
+[auto encoder][Epoch 379] autoencoder training loss: 0.0002485292061464861
+[auto encoder][Epoch 380] autoencoder training loss: 0.00024942317395471036
+[auto encoder][Epoch 381] autoencoder training loss: 0.00024873246729839593
+[auto encoder][Epoch 382] autoencoder training loss: 0.00024923258752096444
+[auto encoder][Epoch 383] autoencoder training loss: 0.00024716400366742164
+[auto encoder][Epoch 384] autoencoder training loss: 0.0002473144559189677
+[auto encoder][Epoch 385] autoencoder training loss: 0.0002472374035278335
+[auto encoder][Epoch 386] autoencoder training loss: 0.0002464393328409642
+[auto encoder][Epoch 387] autoencoder training loss: 0.00024611546541564167
+[auto encoder][Epoch 388] autoencoder training loss: 0.0002460753166815266
+[auto encoder][Epoch 389] autoencoder training loss: 0.0002452039916533977
+[auto encoder][Epoch 390] autoencoder training loss: 0.00024486679467372596
+[auto encoder][Epoch 391] autoencoder training loss: 0.00024551381648052484
+[auto encoder][Epoch 392] autoencoder training loss: 0.00024436472449451685
+[auto encoder][Epoch 393] autoencoder training loss: 0.00024388477322645485
+[auto encoder][Epoch 394] autoencoder training loss: 0.00024378551461268216
+[auto encoder][Epoch 395] autoencoder training loss: 0.0002432665933156386
+[auto encoder][Epoch 396] autoencoder training loss: 0.00024256457254523411
+[auto encoder][Epoch 397] autoencoder training loss: 0.00024277121701743454
+[auto encoder][Epoch 398] autoencoder training loss: 0.00024249523994512856
+[auto encoder][Epoch 399] autoencoder training loss: 0.00024279911303892732
+[auto encoder][Epoch 400] autoencoder training loss: 0.00024093647516565397
+[auto encoder][Epoch 401] autoencoder training loss: 0.0002408575455774553
+[auto encoder][Epoch 402] autoencoder training loss: 0.00024072387896012515
+[auto encoder][Epoch 403] autoencoder training loss: 0.0002392128953943029
+[auto encoder][Epoch 404] autoencoder training loss: 0.00024019656848395243
+[auto encoder][Epoch 405] autoencoder training loss: 0.0002393308313912712
+[auto encoder][Epoch 406] autoencoder training loss: 0.0002407801293884404
+[auto encoder][Epoch 407] autoencoder training loss: 0.00023865669936640188
+[auto encoder][Epoch 408] autoencoder training loss: 0.00023726561630610377
+[auto encoder][Epoch 409] autoencoder training loss: 0.00023684747429797426
+[auto encoder][Epoch 410] autoencoder training loss: 0.00023807698744349182
+[auto encoder][Epoch 411] autoencoder training loss: 0.00023739779135212302
+[auto encoder][Epoch 412] autoencoder training loss: 0.00023561523266835138
+[auto encoder][Epoch 413] autoencoder training loss: 0.00023655932454857975
+[auto encoder][Epoch 414] autoencoder training loss: 0.0002362366794841364
+[auto encoder][Epoch 415] autoencoder training loss: 0.00023560352565255016
+[auto encoder][Epoch 416] autoencoder training loss: 0.0002355186516069807
+[auto encoder][Epoch 417] autoencoder training loss: 0.00023498301743529737
+[auto encoder][Epoch 418] autoencoder training loss: 0.00023485626297770068
+[auto encoder][Epoch 419] autoencoder training loss: 0.00023472143948310986
+[auto encoder][Epoch 420] autoencoder training loss: 0.0002356663317186758
+[auto encoder][Epoch 421] autoencoder training loss: 0.00023323451750911772
+[auto encoder][Epoch 422] autoencoder training loss: 0.00023253769904840738
+[auto encoder][Epoch 423] autoencoder training loss: 0.00023337097081821412
+[auto encoder][Epoch 424] autoencoder training loss: 0.00023396068718284369
+[auto encoder][Epoch 425] autoencoder training loss: 0.00023251748643815517
+[auto encoder][Epoch 426] autoencoder training loss: 0.00023210793733596802
+[auto encoder][Epoch 427] autoencoder training loss: 0.00023178709670901299
+[auto encoder][Epoch 428] autoencoder training loss: 0.00023148697073338553
+[auto encoder][Epoch 429] autoencoder training loss: 0.00023124624567572027
+[auto encoder][Epoch 430] autoencoder training loss: 0.00022994496976025403
+[auto encoder][Epoch 431] autoencoder training loss: 0.0002294047299074009
+[auto encoder][Epoch 432] autoencoder training loss: 0.00023043837427394465
+[auto encoder][Epoch 433] autoencoder training loss: 0.00023011970188235864
+[auto encoder][Epoch 434] autoencoder training loss: 0.00022925225493963808
+[auto encoder][Epoch 435] autoencoder training loss: 0.00022895699657965451
+[auto encoder][Epoch 436] autoencoder training loss: 0.00022836462449049577
+[auto encoder][Epoch 437] autoencoder training loss: 0.00022837652068119496
+[auto encoder][Epoch 438] autoencoder training loss: 0.00022782219457440078
+[auto encoder][Epoch 439] autoencoder training loss: 0.00022770968644181266
+[auto encoder][Epoch 440] autoencoder training loss: 0.00022637000074610114
+[auto encoder][Epoch 441] autoencoder training loss: 0.00022685813019052148
+[auto encoder][Epoch 442] autoencoder training loss: 0.00022617987997364253
+[auto encoder][Epoch 443] autoencoder training loss: 0.00022573605383513495
+[auto encoder][Epoch 444] autoencoder training loss: 0.0002260113469674252
+[auto encoder][Epoch 445] autoencoder training loss: 0.00022581633675144985
+[auto encoder][Epoch 446] autoencoder training loss: 0.0002264767390443012
+[auto encoder][Epoch 447] autoencoder training loss: 0.00022436067229136825
+[auto encoder][Epoch 448] autoencoder training loss: 0.0002262921116198413
+[auto encoder][Epoch 449] autoencoder training loss: 0.00022486207308247685
+[auto encoder][Epoch 450] autoencoder training loss: 0.00022360729053616524
+[auto encoder][Epoch 451] autoencoder training loss: 0.00022345764591591433
+[auto encoder][Epoch 452] autoencoder training loss: 0.00022506069944938645
+[auto encoder][Epoch 453] autoencoder training loss: 0.00022343153250403702
+[auto encoder][Epoch 454] autoencoder training loss: 0.00022427915246225893
+[auto encoder][Epoch 455] autoencoder training loss: 0.00022288429317995906
+[auto encoder][Epoch 456] autoencoder training loss: 0.00022159657237352803
+[auto encoder][Epoch 457] autoencoder training loss: 0.00022077585163060576
+[auto encoder][Epoch 458] autoencoder training loss: 0.00022109753626864403
+[auto encoder][Epoch 459] autoencoder training loss: 0.0002212656254414469
+[auto encoder][Epoch 460] autoencoder training loss: 0.00022097628971096128
+[auto encoder][Epoch 461] autoencoder training loss: 0.00021971425303490832
+[auto encoder][Epoch 462] autoencoder training loss: 0.00022118100605439395
+[auto encoder][Epoch 463] autoencoder training loss: 0.00022008597443345934
+[auto encoder][Epoch 464] autoencoder training loss: 0.0002203251133323647
+[auto encoder][Epoch 465] autoencoder training loss: 0.00021896939142607152
+[auto encoder][Epoch 466] autoencoder training loss: 0.00021842625574208796
+[auto encoder][Epoch 467] autoencoder training loss: 0.0002185843331972137
+[auto encoder][Epoch 468] autoencoder training loss: 0.000219518224184867
+[auto encoder][Epoch 469] autoencoder training loss: 0.00021874430967727676
+[auto encoder][Epoch 470] autoencoder training loss: 0.00021826784359291196
+[auto encoder][Epoch 471] autoencoder training loss: 0.0002183525648433715
+[auto encoder][Epoch 472] autoencoder training loss: 0.00021750461019109935
+[auto encoder][Epoch 473] autoencoder training loss: 0.00021654044394381344
+[auto encoder][Epoch 474] autoencoder training loss: 0.00021639969781972468
+[auto encoder][Epoch 475] autoencoder training loss: 0.0002164539837394841
+[auto encoder][Epoch 476] autoencoder training loss: 0.00021591512631857768
+[auto encoder][Epoch 477] autoencoder training loss: 0.0002150736327166669
+[auto encoder][Epoch 478] autoencoder training loss: 0.00021592697885353118
+[auto encoder][Epoch 479] autoencoder training loss: 0.00021612307318719104
+[auto encoder][Epoch 480] autoencoder training loss: 0.00021430602646432817
+[auto encoder][Epoch 481] autoencoder training loss: 0.00021439480769913644
+[auto encoder][Epoch 482] autoencoder training loss: 0.0002146621627616696
+[auto encoder][Epoch 483] autoencoder training loss: 0.00021496563567779958
+[auto encoder][Epoch 484] autoencoder training loss: 0.00021465223835548386
+[auto encoder][Epoch 485] autoencoder training loss: 0.00021284424292389303
+[auto encoder][Epoch 486] autoencoder training loss: 0.0002140035794582218
+[auto encoder][Epoch 487] autoencoder training loss: 0.00021286671835696325
+[auto encoder][Epoch 488] autoencoder training loss: 0.00021356962679419667
+[auto encoder][Epoch 489] autoencoder training loss: 0.00021324906265363097
+[auto encoder][Epoch 490] autoencoder training loss: 0.00021186922822380438
+[auto encoder][Epoch 490] autoencoder recon val loss: 0.00021194201690377668
+[auto encoder][Epoch 490] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 490] input auto_encoder_model accuracy:[0.6606498194945848, 0.6498194945848376, 0.6606498194945848, 0.6570397111913358, 0.6425992779783394, 0.6498194945848376, 0.6606498194945848, 0.6498194945848376, 0.6534296028880866, 0.6570397111913358]
+[auto encoder][Epoch 490] best input auto_encoder_model accuracy:0.6606498194945848
+[auto encoder][Epoch 490] ---------------------------------
+[auto encoder][Epoch 490] Test the AE auto_encoder_model
+[auto encoder][Epoch 490] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 490] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 490] AE reconstruction auto_encoder_models accuracy:[0.6570397111913358, 0.6425992779783394, 0.6389891696750902, 0.6570397111913358, 0.6498194945848376, 0.6425992779783394, 0.6570397111913358, 0.6606498194945848, 0.6498194945848376, 0.6534296028880866]
+[auto encoder][Epoch 490] AE reconstruction auto_encoder_models best accuracy:0.6606498194945848
+[auto encoder][Epoch 490] ---------------------------------
+[auto encoder][Epoch 491] autoencoder training loss: 0.00021175464644329622
+[auto encoder][Epoch 491] autoencoder recon val loss: 0.00021273976017255336
+[auto encoder][Epoch 491] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 491] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 491] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 491] ---------------------------------
+[auto encoder][Epoch 491] Test the AE auto_encoder_model
+[auto encoder][Epoch 491] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 491] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 491] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6606498194945848, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 491] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 491] ---------------------------------
+[auto encoder][Epoch 492] autoencoder training loss: 0.00021146699145901948
+[auto encoder][Epoch 492] autoencoder recon val loss: 0.0002124769234796986
+[auto encoder][Epoch 492] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 492] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 492] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 492] ---------------------------------
+[auto encoder][Epoch 492] Test the AE auto_encoder_model
+[auto encoder][Epoch 492] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 492] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 492] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6606498194945848, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 492] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 492] ---------------------------------
+[auto encoder][Epoch 493] autoencoder training loss: 0.00021117509459145367
+[auto encoder][Epoch 493] autoencoder recon val loss: 0.00021221746283117682
+[auto encoder][Epoch 493] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 493] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 493] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 493] ---------------------------------
+[auto encoder][Epoch 493] Test the AE auto_encoder_model
+[auto encoder][Epoch 493] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 493] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 493] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6606498194945848, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 493] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 493] ---------------------------------
+[auto encoder][Epoch 494] autoencoder training loss: 0.000210879159567412
+[auto encoder][Epoch 494] autoencoder recon val loss: 0.00021196235320530832
+[auto encoder][Epoch 494] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 494] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 494] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 494] ---------------------------------
+[auto encoder][Epoch 494] Test the AE auto_encoder_model
+[auto encoder][Epoch 494] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 494] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 494] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6606498194945848, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 494] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 494] ---------------------------------
+[auto encoder][Epoch 495] autoencoder training loss: 0.00021058367565274239
+[auto encoder][Epoch 495] autoencoder recon val loss: 0.00021171261323615909
+[auto encoder][Epoch 495] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 495] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 495] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 495] ---------------------------------
+[auto encoder][Epoch 495] Test the AE auto_encoder_model
+[auto encoder][Epoch 495] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 495] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 495] AE reconstruction auto_encoder_models accuracy:[0.6462093862815884, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6606498194945848, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 495] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 495] ---------------------------------
+[auto encoder][Epoch 496] autoencoder training loss: 0.00021029167692176998
+[auto encoder][Epoch 496] autoencoder recon val loss: 0.00021146496146684512
+[auto encoder][Epoch 496] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 496] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 496] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 496] ---------------------------------
+[auto encoder][Epoch 496] Test the AE auto_encoder_model
+[auto encoder][Epoch 496] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 496] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 496] AE reconstruction auto_encoder_models accuracy:[0.6462093862815884, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6642599277978339, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 496] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 496] ---------------------------------
+[auto encoder][Epoch 497] autoencoder training loss: 0.00021000090055167675
+[auto encoder][Epoch 497] autoencoder recon val loss: 0.0002112204529112205
+[auto encoder][Epoch 497] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 497] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 497] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 497] ---------------------------------
+[auto encoder][Epoch 497] Test the AE auto_encoder_model
+[auto encoder][Epoch 497] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 497] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 497] AE reconstruction auto_encoder_models accuracy:[0.6462093862815884, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6642599277978339, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 497] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 497] ---------------------------------
+[auto encoder][Epoch 498] autoencoder training loss: 0.00020971751655451953
+[auto encoder][Epoch 498] autoencoder recon val loss: 0.00021097571880090982
+[auto encoder][Epoch 498] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 498] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 498] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 498] ---------------------------------
+[auto encoder][Epoch 498] Test the AE auto_encoder_model
+[auto encoder][Epoch 498] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 498] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 498] AE reconstruction auto_encoder_models accuracy:[0.6462093862815884, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6642599277978339, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 498] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 498] ---------------------------------
+[auto encoder][Epoch 499] autoencoder training loss: 0.00020943205163348466
+[auto encoder][Epoch 499] autoencoder recon val loss: 0.00021073231619084254
+[auto encoder][Epoch 499] val_param shape:torch.Size([10, 18432])
+[auto encoder][Epoch 499] input auto_encoder_model accuracy:[0.6425992779783394, 0.6534296028880866, 0.6534296028880866, 0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6425992779783394, 0.6642599277978339]
+[auto encoder][Epoch 499] best input auto_encoder_model accuracy:0.6642599277978339
+[auto encoder][Epoch 499] ---------------------------------
+[auto encoder][Epoch 499] Test the AE auto_encoder_model
+[auto encoder][Epoch 499] latent shape:torch.Size([10, 4, 29])
+[auto encoder][Epoch 499] ae params shape:torch.Size([10, 18432])
+[auto encoder][Epoch 499] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6534296028880866, 0.6498194945848376, 0.6606498194945848, 0.6534296028880866, 0.6642599277978339, 0.6642599277978339, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394]
+[auto encoder][Epoch 499] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[auto encoder][Epoch 499] ---------------------------------
+[diffusion][Epoch 0] diffusion training Loss: 0.9911668300628662
+[diffusion][Epoch 1] diffusion training Loss: 0.5055787563323975
+[diffusion][Epoch 2] diffusion training Loss: 0.4002838730812073
+[diffusion][Epoch 3] diffusion training Loss: 0.34121832251548767
+[diffusion][Epoch 4] diffusion training Loss: 0.35051169991493225
+[diffusion][Epoch 5] diffusion training Loss: 0.26985347270965576
+[diffusion][Epoch 6] diffusion training Loss: 0.24627532809972763
+[diffusion][Epoch 7] diffusion training Loss: 0.30537423491477966
+[diffusion][Epoch 8] diffusion training Loss: 0.26476041972637177
+[diffusion][Epoch 9] diffusion training Loss: 0.2205079272389412
+[diffusion][Epoch 10] diffusion training Loss: 0.2765096426010132
+[diffusion][Epoch 11] diffusion training Loss: 0.21805191040039062
+[diffusion][Epoch 12] diffusion training Loss: 0.23217478394508362
+[diffusion][Epoch 13] diffusion training Loss: 0.21285732835531235
+[diffusion][Epoch 14] diffusion training Loss: 0.23820869624614716
+[diffusion][Epoch 15] diffusion training Loss: 0.24388471990823746
+[diffusion][Epoch 16] diffusion training Loss: 0.2174774333834648
+[diffusion][Epoch 17] diffusion training Loss: 0.20664779096841812
+[diffusion][Epoch 18] diffusion training Loss: 0.22231826931238174
+[diffusion][Epoch 19] diffusion training Loss: 0.2161105051636696
+[diffusion][Epoch 20] diffusion training Loss: 0.2024022936820984
+[diffusion][Epoch 21] diffusion training Loss: 0.22635292261838913
+[diffusion][Epoch 22] diffusion training Loss: 0.23836743086576462
+[diffusion][Epoch 23] diffusion training Loss: 0.21790826320648193
+[diffusion][Epoch 24] diffusion training Loss: 0.21194829046726227
+[diffusion][Epoch 25] diffusion training Loss: 0.2415233477950096
+[diffusion][Epoch 26] diffusion training Loss: 0.21069997549057007
+[diffusion][Epoch 27] diffusion training Loss: 0.25002869218587875
+[diffusion][Epoch 28] diffusion training Loss: 0.22790712118148804
+[diffusion][Epoch 29] diffusion training Loss: 0.25140880048274994
+[diffusion][Epoch 30] diffusion training Loss: 0.1943516731262207
+[diffusion][Epoch 31] diffusion training Loss: 0.248963363468647
+[diffusion][Epoch 32] diffusion training Loss: 0.2270345538854599
+[diffusion][Epoch 33] diffusion training Loss: 0.2416142225265503
+[diffusion][Epoch 34] diffusion training Loss: 0.20399868488311768
+[diffusion][Epoch 35] diffusion training Loss: 0.21179036051034927
+[diffusion][Epoch 36] diffusion training Loss: 0.2361806556582451
+[diffusion][Epoch 37] diffusion training Loss: 0.2204059138894081
+[diffusion][Epoch 38] diffusion training Loss: 0.20831229537725449
+[diffusion][Epoch 39] diffusion training Loss: 0.2544681206345558
+[diffusion][Epoch 40] diffusion training Loss: 0.24202708154916763
+[diffusion][Epoch 41] diffusion training Loss: 0.22140202671289444
+[diffusion][Epoch 42] diffusion training Loss: 0.19299734383821487
+[diffusion][Epoch 43] diffusion training Loss: 0.23972470313310623
+[diffusion][Epoch 44] diffusion training Loss: 0.23864609003067017
+[diffusion][Epoch 45] diffusion training Loss: 0.2294827401638031
+[diffusion][Epoch 46] diffusion training Loss: 0.1748829483985901
+[diffusion][Epoch 47] diffusion training Loss: 0.2175215482711792
+[diffusion][Epoch 48] diffusion training Loss: 0.20896878838539124
+[diffusion][Epoch 49] diffusion training Loss: 0.20933298021554947
+[diffusion][Epoch 50] diffusion training Loss: 0.18728257715702057
+[diffusion][Epoch 51] diffusion training Loss: 0.16968639194965363
+[diffusion][Epoch 52] diffusion training Loss: 0.2519703581929207
+[diffusion][Epoch 53] diffusion training Loss: 0.22737254202365875
+[diffusion][Epoch 54] diffusion training Loss: 0.2293449491262436
+[diffusion][Epoch 55] diffusion training Loss: 0.23197617381811142
+[diffusion][Epoch 56] diffusion training Loss: 0.18244272470474243
+[diffusion][Epoch 57] diffusion training Loss: 0.20753736048936844
+[diffusion][Epoch 58] diffusion training Loss: 0.24327895045280457
+[diffusion][Epoch 59] diffusion training Loss: 0.2515886649489403
+[diffusion][Epoch 60] diffusion training Loss: 0.20793649554252625
+[diffusion][Epoch 61] diffusion training Loss: 0.22674304246902466
+[diffusion][Epoch 62] diffusion training Loss: 0.2127895951271057
+[diffusion][Epoch 63] diffusion training Loss: 0.21526863425970078
+[diffusion][Epoch 64] diffusion training Loss: 0.23270294070243835
+[diffusion][Epoch 65] diffusion training Loss: 0.18502262234687805
+[diffusion][Epoch 66] diffusion training Loss: 0.20815930515527725
+[diffusion][Epoch 67] diffusion training Loss: 0.20405268669128418
+[diffusion][Epoch 68] diffusion training Loss: 0.2037857472896576
+[diffusion][Epoch 69] diffusion training Loss: 0.2344740778207779
+[diffusion][Epoch 70] diffusion training Loss: 0.21158823370933533
+[diffusion][Epoch 71] diffusion training Loss: 0.21005094796419144
+[diffusion][Epoch 72] diffusion training Loss: 0.21069669723510742
+[diffusion][Epoch 73] diffusion training Loss: 0.16976342350244522
+[diffusion][Epoch 74] diffusion training Loss: 0.17069504410028458
+[diffusion][Epoch 75] diffusion training Loss: 0.20585595816373825
+[diffusion][Epoch 76] diffusion training Loss: 0.19333792477846146
+[diffusion][Epoch 77] diffusion training Loss: 0.25265926122665405
+[diffusion][Epoch 78] diffusion training Loss: 0.1791827157139778
+[diffusion][Epoch 79] diffusion training Loss: 0.18985867500305176
+[diffusion][Epoch 80] diffusion training Loss: 0.2040255144238472
+[diffusion][Epoch 81] diffusion training Loss: 0.21916209161281586
+[diffusion][Epoch 82] diffusion training Loss: 0.19194679707288742
+[diffusion][Epoch 83] diffusion training Loss: 0.1577579751610756
+[diffusion][Epoch 84] diffusion training Loss: 0.19655776023864746
+[diffusion][Epoch 85] diffusion training Loss: 0.2131432518362999
+[diffusion][Epoch 86] diffusion training Loss: 0.21827714145183563
+[diffusion][Epoch 87] diffusion training Loss: 0.2102082371711731
+[diffusion][Epoch 88] diffusion training Loss: 0.23183038085699081
+[diffusion][Epoch 89] diffusion training Loss: 0.20661845803260803
+[diffusion][Epoch 90] diffusion training Loss: 0.17776763439178467
+[diffusion][Epoch 91] diffusion training Loss: 0.2200096994638443
+[diffusion][Epoch 92] diffusion training Loss: 0.18525484949350357
+[diffusion][Epoch 93] diffusion training Loss: 0.19232586026191711
+[diffusion][Epoch 94] diffusion training Loss: 0.17653720080852509
+[diffusion][Epoch 95] diffusion training Loss: 0.21091177314519882
+[diffusion][Epoch 96] diffusion training Loss: 0.21356499195098877
+[diffusion][Epoch 97] diffusion training Loss: 0.17259646207094193
+[diffusion][Epoch 98] diffusion training Loss: 0.16235727816820145
+[diffusion][Epoch 99] diffusion training Loss: 0.20170589536428452
+[diffusion][Epoch 100] diffusion training Loss: 0.1909400224685669
+[diffusion][Epoch 101] diffusion training Loss: 0.21046596765518188
+[diffusion][Epoch 102] diffusion training Loss: 0.19120576977729797
+[diffusion][Epoch 103] diffusion training Loss: 0.21715543419122696
+[diffusion][Epoch 104] diffusion training Loss: 0.18109281361103058
+[diffusion][Epoch 105] diffusion training Loss: 0.19539375603199005
+[diffusion][Epoch 106] diffusion training Loss: 0.23807442933321
+[diffusion][Epoch 107] diffusion training Loss: 0.19745519757270813
+[diffusion][Epoch 108] diffusion training Loss: 0.1906183585524559
+[diffusion][Epoch 109] diffusion training Loss: 0.2225242182612419
+[diffusion][Epoch 110] diffusion training Loss: 0.24831777065992355
+[diffusion][Epoch 111] diffusion training Loss: 0.1884569749236107
+[diffusion][Epoch 112] diffusion training Loss: 0.18518668413162231
+[diffusion][Epoch 113] diffusion training Loss: 0.23415955901145935
+[diffusion][Epoch 114] diffusion training Loss: 0.1993086338043213
+[diffusion][Epoch 115] diffusion training Loss: 0.20736124366521835
+[diffusion][Epoch 116] diffusion training Loss: 0.18084389716386795
+[diffusion][Epoch 117] diffusion training Loss: 0.20431078225374222
+[diffusion][Epoch 118] diffusion training Loss: 0.22423096001148224
+[diffusion][Epoch 119] diffusion training Loss: 0.2113080844283104
+[diffusion][Epoch 120] diffusion training Loss: 0.2534205764532089
+[diffusion][Epoch 121] diffusion training Loss: 0.19993021339178085
+[diffusion][Epoch 122] diffusion training Loss: 0.21107526123523712
+[diffusion][Epoch 123] diffusion training Loss: 0.1717175394296646
+[diffusion][Epoch 124] diffusion training Loss: 0.19712375849485397
+[diffusion][Epoch 125] diffusion training Loss: 0.23235562443733215
+[diffusion][Epoch 126] diffusion training Loss: 0.21713682264089584
+[diffusion][Epoch 127] diffusion training Loss: 0.21270514279603958
+[diffusion][Epoch 128] diffusion training Loss: 0.1748790219426155
+[diffusion][Epoch 129] diffusion training Loss: 0.2059933915734291
+[diffusion][Epoch 130] diffusion training Loss: 0.21508396416902542
+[diffusion][Epoch 131] diffusion training Loss: 0.18182658404111862
+[diffusion][Epoch 132] diffusion training Loss: 0.18878615647554398
+[diffusion][Epoch 133] diffusion training Loss: 0.20532836765050888
+[diffusion][Epoch 134] diffusion training Loss: 0.21410837024450302
+[diffusion][Epoch 135] diffusion training Loss: 0.17806080728769302
+[diffusion][Epoch 136] diffusion training Loss: 0.21857018768787384
+[diffusion][Epoch 137] diffusion training Loss: 0.15529606491327286
+[diffusion][Epoch 138] diffusion training Loss: 0.1764494851231575
+[diffusion][Epoch 139] diffusion training Loss: 0.1711651012301445
+[diffusion][Epoch 140] diffusion training Loss: 0.19828399270772934
+[diffusion][Epoch 141] diffusion training Loss: 0.20852390676736832
+[diffusion][Epoch 142] diffusion training Loss: 0.18218432366847992
+[diffusion][Epoch 143] diffusion training Loss: 0.18930701166391373
+[diffusion][Epoch 144] diffusion training Loss: 0.19284560531377792
+[diffusion][Epoch 145] diffusion training Loss: 0.20201227813959122
+[diffusion][Epoch 146] diffusion training Loss: 0.1479484662413597
+[diffusion][Epoch 147] diffusion training Loss: 0.16895665973424911
+[diffusion][Epoch 148] diffusion training Loss: 0.24152593314647675
+[diffusion][Epoch 149] diffusion training Loss: 0.18915673345327377
+[diffusion][Epoch 150] diffusion training Loss: 0.16839079558849335
+[diffusion][Epoch 151] diffusion training Loss: 0.21503851562738419
+[diffusion][Epoch 152] diffusion training Loss: 0.18845517933368683
+[diffusion][Epoch 153] diffusion training Loss: 0.18981212377548218
+[diffusion][Epoch 154] diffusion training Loss: 0.2190871462225914
+[diffusion][Epoch 155] diffusion training Loss: 0.22078770399093628
+[diffusion][Epoch 156] diffusion training Loss: 0.20173273980617523
+[diffusion][Epoch 157] diffusion training Loss: 0.16534578055143356
+[diffusion][Epoch 158] diffusion training Loss: 0.2239493951201439
+[diffusion][Epoch 159] diffusion training Loss: 0.17041151225566864
+[diffusion][Epoch 160] diffusion training Loss: 0.1955779567360878
+[diffusion][Epoch 161] diffusion training Loss: 0.22170402854681015
+[diffusion][Epoch 162] diffusion training Loss: 0.1907869279384613
+[diffusion][Epoch 163] diffusion training Loss: 0.2054063081741333
+[diffusion][Epoch 164] diffusion training Loss: 0.2148711085319519
+[diffusion][Epoch 165] diffusion training Loss: 0.20043805986642838
+[diffusion][Epoch 166] diffusion training Loss: 0.1439475566148758
+[diffusion][Epoch 167] diffusion training Loss: 0.19907911121845245
+[diffusion][Epoch 168] diffusion training Loss: 0.16494905203580856
+[diffusion][Epoch 169] diffusion training Loss: 0.1851845234632492
+[diffusion][Epoch 170] diffusion training Loss: 0.19471053034067154
+[diffusion][Epoch 171] diffusion training Loss: 0.19815853983163834
+[diffusion][Epoch 172] diffusion training Loss: 0.2010520175099373
+[diffusion][Epoch 173] diffusion training Loss: 0.16941409558057785
+[diffusion][Epoch 174] diffusion training Loss: 0.1692172735929489
+[diffusion][Epoch 175] diffusion training Loss: 0.19627302139997482
+[diffusion][Epoch 176] diffusion training Loss: 0.1879223883152008
+[diffusion][Epoch 177] diffusion training Loss: 0.174520842730999
+[diffusion][Epoch 178] diffusion training Loss: 0.1988055780529976
+[diffusion][Epoch 179] diffusion training Loss: 0.19369863718748093
+[diffusion][Epoch 180] diffusion training Loss: 0.18476252257823944
+[diffusion][Epoch 181] diffusion training Loss: 0.1709665209054947
+[diffusion][Epoch 182] diffusion training Loss: 0.17679273337125778
+[diffusion][Epoch 183] diffusion training Loss: 0.19479277729988098
+[diffusion][Epoch 184] diffusion training Loss: 0.1727527529001236
+[diffusion][Epoch 185] diffusion training Loss: 0.1788027435541153
+[diffusion][Epoch 186] diffusion training Loss: 0.19081079214811325
+[diffusion][Epoch 187] diffusion training Loss: 0.1919890120625496
+[diffusion][Epoch 188] diffusion training Loss: 0.19043828547000885
+[diffusion][Epoch 189] diffusion training Loss: 0.17076262086629868
+[diffusion][Epoch 190] diffusion training Loss: 0.21833524852991104
+[diffusion][Epoch 191] diffusion training Loss: 0.18452009558677673
+[diffusion][Epoch 192] diffusion training Loss: 0.20531722903251648
+[diffusion][Epoch 193] diffusion training Loss: 0.18802452832460403
+[diffusion][Epoch 194] diffusion training Loss: 0.1918577328324318
+[diffusion][Epoch 195] diffusion training Loss: 0.19553327560424805
+[diffusion][Epoch 196] diffusion training Loss: 0.1880483627319336
+[diffusion][Epoch 197] diffusion training Loss: 0.17400767654180527
+[diffusion][Epoch 198] diffusion training Loss: 0.18392223864793777
+[diffusion][Epoch 199] diffusion training Loss: 0.18250922113656998
+[diffusion][Epoch 200] diffusion training Loss: 0.1665647029876709
+[diffusion][Epoch 201] diffusion training Loss: 0.21196065843105316
+[diffusion][Epoch 202] diffusion training Loss: 0.20305583626031876
+[diffusion][Epoch 203] diffusion training Loss: 0.20265526324510574
+[diffusion][Epoch 204] diffusion training Loss: 0.1920861229300499
+[diffusion][Epoch 205] diffusion training Loss: 0.16684651374816895
+[diffusion][Epoch 206] diffusion training Loss: 0.1957673653960228
+[diffusion][Epoch 207] diffusion training Loss: 0.183342345058918
+[diffusion][Epoch 208] diffusion training Loss: 0.17966432124376297
+[diffusion][Epoch 209] diffusion training Loss: 0.18059507757425308
+[diffusion][Epoch 210] diffusion training Loss: 0.15332922339439392
+[diffusion][Epoch 211] diffusion training Loss: 0.1662541851401329
+[diffusion][Epoch 212] diffusion training Loss: 0.1818830445408821
+[diffusion][Epoch 213] diffusion training Loss: 0.19576650112867355
+[diffusion][Epoch 214] diffusion training Loss: 0.16699578613042831
+[diffusion][Epoch 215] diffusion training Loss: 0.18495780229568481
+[diffusion][Epoch 216] diffusion training Loss: 0.16560771316289902
+[diffusion][Epoch 217] diffusion training Loss: 0.20332073420286179
+[diffusion][Epoch 218] diffusion training Loss: 0.19269146025180817
+[diffusion][Epoch 219] diffusion training Loss: 0.2052754983305931
+[diffusion][Epoch 220] diffusion training Loss: 0.14533016830682755
+[diffusion][Epoch 221] diffusion training Loss: 0.19838963449001312
+[diffusion][Epoch 222] diffusion training Loss: 0.18848523497581482
+[diffusion][Epoch 223] diffusion training Loss: 0.2181401625275612
+[diffusion][Epoch 224] diffusion training Loss: 0.19774080067873
+[diffusion][Epoch 225] diffusion training Loss: 0.1575663611292839
+[diffusion][Epoch 226] diffusion training Loss: 0.1492249295115471
+[diffusion][Epoch 227] diffusion training Loss: 0.15369465947151184
+[diffusion][Epoch 228] diffusion training Loss: 0.14370962977409363
+[diffusion][Epoch 229] diffusion training Loss: 0.16196100413799286
+[diffusion][Epoch 230] diffusion training Loss: 0.1972118616104126
+[diffusion][Epoch 231] diffusion training Loss: 0.1785752847790718
+[diffusion][Epoch 232] diffusion training Loss: 0.21163349598646164
+[diffusion][Epoch 233] diffusion training Loss: 0.16612805426120758
+[diffusion][Epoch 234] diffusion training Loss: 0.14695695415139198
+[diffusion][Epoch 235] diffusion training Loss: 0.18729837238788605
+[diffusion][Epoch 236] diffusion training Loss: 0.15571174025535583
+[diffusion][Epoch 237] diffusion training Loss: 0.16221549361944199
+[diffusion][Epoch 238] diffusion training Loss: 0.16590969264507294
+[diffusion][Epoch 239] diffusion training Loss: 0.15810907632112503
+[diffusion][Epoch 240] diffusion training Loss: 0.14832176268100739
+[diffusion][Epoch 241] diffusion training Loss: 0.16490017622709274
+[diffusion][Epoch 242] diffusion training Loss: 0.17932654917240143
+[diffusion][Epoch 243] diffusion training Loss: 0.17755577713251114
+[diffusion][Epoch 244] diffusion training Loss: 0.1768699660897255
+[diffusion][Epoch 245] diffusion training Loss: 0.16543414443731308
+[diffusion][Epoch 246] diffusion training Loss: 0.16176526993513107
+[diffusion][Epoch 247] diffusion training Loss: 0.17375218868255615
+[diffusion][Epoch 248] diffusion training Loss: 0.187798909842968
+[diffusion][Epoch 249] diffusion training Loss: 0.16121462732553482
+[diffusion][Epoch 250] diffusion training Loss: 0.15731707960367203
+[diffusion][Epoch 251] diffusion training Loss: 0.15803196281194687
+[diffusion][Epoch 252] diffusion training Loss: 0.1733449548482895
+[diffusion][Epoch 253] diffusion training Loss: 0.16130761802196503
+[diffusion][Epoch 254] diffusion training Loss: 0.16722359508275986
+[diffusion][Epoch 255] diffusion training Loss: 0.1370295211672783
+[diffusion][Epoch 256] diffusion training Loss: 0.20409943908452988
+[diffusion][Epoch 257] diffusion training Loss: 0.15373796224594116
+[diffusion][Epoch 258] diffusion training Loss: 0.17373041808605194
+[diffusion][Epoch 259] diffusion training Loss: 0.17779909074306488
+[diffusion][Epoch 260] diffusion training Loss: 0.15842682123184204
+[diffusion][Epoch 261] diffusion training Loss: 0.17897211015224457
+[diffusion][Epoch 262] diffusion training Loss: 0.1781112253665924
+[diffusion][Epoch 263] diffusion training Loss: 0.17135650664567947
+[diffusion][Epoch 264] diffusion training Loss: 0.160189189016819
+[diffusion][Epoch 265] diffusion training Loss: 0.16732847690582275
+[diffusion][Epoch 266] diffusion training Loss: 0.1697242110967636
+[diffusion][Epoch 267] diffusion training Loss: 0.15782003104686737
+[diffusion][Epoch 268] diffusion training Loss: 0.1581665426492691
+[diffusion][Epoch 269] diffusion training Loss: 0.15094859898090363
+[diffusion][Epoch 270] diffusion training Loss: 0.17408666759729385
+[diffusion][Epoch 271] diffusion training Loss: 0.16365087032318115
+[diffusion][Epoch 272] diffusion training Loss: 0.16242045164108276
+[diffusion][Epoch 273] diffusion training Loss: 0.20018910616636276
+[diffusion][Epoch 274] diffusion training Loss: 0.15588727593421936
+[diffusion][Epoch 275] diffusion training Loss: 0.16202548146247864
+[diffusion][Epoch 276] diffusion training Loss: 0.17804095149040222
+[diffusion][Epoch 277] diffusion training Loss: 0.1549682468175888
+[diffusion][Epoch 278] diffusion training Loss: 0.1340090110898018
+[diffusion][Epoch 279] diffusion training Loss: 0.1639517918229103
+[diffusion][Epoch 280] diffusion training Loss: 0.18653163313865662
+[diffusion][Epoch 281] diffusion training Loss: 0.16401728987693787
+[diffusion][Epoch 282] diffusion training Loss: 0.15867702662944794
+[diffusion][Epoch 283] diffusion training Loss: 0.15824390947818756
+[diffusion][Epoch 284] diffusion training Loss: 0.16735901683568954
+[diffusion][Epoch 285] diffusion training Loss: 0.155055932700634
+[diffusion][Epoch 286] diffusion training Loss: 0.17871229350566864
+[diffusion][Epoch 287] diffusion training Loss: 0.14544309675693512
+[diffusion][Epoch 288] diffusion training Loss: 0.1522727981209755
+[diffusion][Epoch 289] diffusion training Loss: 0.16370462626218796
+[diffusion][Epoch 290] diffusion training Loss: 0.16369716078042984
+[diffusion][Epoch 291] diffusion training Loss: 0.17263659089803696
+[diffusion][Epoch 292] diffusion training Loss: 0.15855637192726135
+[diffusion][Epoch 293] diffusion training Loss: 0.1547246277332306
+[diffusion][Epoch 294] diffusion training Loss: 0.16519451886415482
+[diffusion][Epoch 295] diffusion training Loss: 0.15642853826284409
+[diffusion][Epoch 296] diffusion training Loss: 0.16734173893928528
+[diffusion][Epoch 297] diffusion training Loss: 0.17452465742826462
+[diffusion][Epoch 298] diffusion training Loss: 0.1503792330622673
+[diffusion][Epoch 299] diffusion training Loss: 0.15962307900190353
+[diffusion][Epoch 300] diffusion training Loss: 0.1774042695760727
+[diffusion][Epoch 301] diffusion training Loss: 0.17111285775899887
+[diffusion][Epoch 302] diffusion training Loss: 0.1495147943496704
+[diffusion][Epoch 303] diffusion training Loss: 0.15380943566560745
+[diffusion][Epoch 304] diffusion training Loss: 0.12796906009316444
+[diffusion][Epoch 305] diffusion training Loss: 0.14546670019626617
+[diffusion][Epoch 306] diffusion training Loss: 0.16832084953784943
+[diffusion][Epoch 307] diffusion training Loss: 0.16045896708965302
+[diffusion][Epoch 308] diffusion training Loss: 0.14486977458000183
+[diffusion][Epoch 309] diffusion training Loss: 0.17533937096595764
+[diffusion][Epoch 310] diffusion training Loss: 0.1681683212518692
+[diffusion][Epoch 311] diffusion training Loss: 0.1406330093741417
+[diffusion][Epoch 312] diffusion training Loss: 0.1562422513961792
+[diffusion][Epoch 313] diffusion training Loss: 0.15657245367765427
+[diffusion][Epoch 314] diffusion training Loss: 0.14834965765476227
+[diffusion][Epoch 315] diffusion training Loss: 0.16190606355667114
+[diffusion][Epoch 316] diffusion training Loss: 0.14063578471541405
+[diffusion][Epoch 317] diffusion training Loss: 0.16122790426015854
+[diffusion][Epoch 318] diffusion training Loss: 0.1622135266661644
+[diffusion][Epoch 319] diffusion training Loss: 0.19948653876781464
+[diffusion][Epoch 320] diffusion training Loss: 0.15012481808662415
+[diffusion][Epoch 321] diffusion training Loss: 0.13732711225748062
+[diffusion][Epoch 322] diffusion training Loss: 0.16779305785894394
+[diffusion][Epoch 323] diffusion training Loss: 0.16332342475652695
+[diffusion][Epoch 324] diffusion training Loss: 0.15844491124153137
+[diffusion][Epoch 325] diffusion training Loss: 0.16642660647630692
+[diffusion][Epoch 326] diffusion training Loss: 0.12821605801582336
+[diffusion][Epoch 327] diffusion training Loss: 0.14391102641820908
+[diffusion][Epoch 328] diffusion training Loss: 0.17262832075357437
+[diffusion][Epoch 329] diffusion training Loss: 0.1263277716934681
+[diffusion][Epoch 330] diffusion training Loss: 0.1630965694785118
+[diffusion][Epoch 331] diffusion training Loss: 0.14947392046451569
+[diffusion][Epoch 332] diffusion training Loss: 0.14053630083799362
+[diffusion][Epoch 333] diffusion training Loss: 0.14979981631040573
+[diffusion][Epoch 334] diffusion training Loss: 0.13354168459773064
+[diffusion][Epoch 335] diffusion training Loss: 0.14056814461946487
+[diffusion][Epoch 336] diffusion training Loss: 0.13826809450984
+[diffusion][Epoch 337] diffusion training Loss: 0.13232958316802979
+[diffusion][Epoch 338] diffusion training Loss: 0.15962360054254532
+[diffusion][Epoch 339] diffusion training Loss: 0.1416325494647026
+[diffusion][Epoch 340] diffusion training Loss: 0.15505821257829666
+[diffusion][Epoch 341] diffusion training Loss: 0.10951727628707886
+[diffusion][Epoch 342] diffusion training Loss: 0.15297666937112808
+[diffusion][Epoch 343] diffusion training Loss: 0.17163577675819397
+[diffusion][Epoch 344] diffusion training Loss: 0.15896223485469818
+[diffusion][Epoch 345] diffusion training Loss: 0.1350679248571396
+[diffusion][Epoch 346] diffusion training Loss: 0.14753307402133942
+[diffusion][Epoch 347] diffusion training Loss: 0.1511669158935547
+[diffusion][Epoch 348] diffusion training Loss: 0.15710891038179398
+[diffusion][Epoch 349] diffusion training Loss: 0.14046698063611984
+[diffusion][Epoch 350] diffusion training Loss: 0.1553739756345749
+[diffusion][Epoch 351] diffusion training Loss: 0.1189618743956089
+[diffusion][Epoch 352] diffusion training Loss: 0.15211977064609528
+[diffusion][Epoch 353] diffusion training Loss: 0.15614525228738785
+[diffusion][Epoch 354] diffusion training Loss: 0.1502177193760872
+[diffusion][Epoch 355] diffusion training Loss: 0.15688800811767578
+[diffusion][Epoch 356] diffusion training Loss: 0.16300947219133377
+[diffusion][Epoch 357] diffusion training Loss: 0.1380443349480629
+[diffusion][Epoch 358] diffusion training Loss: 0.1522391065955162
+[diffusion][Epoch 359] diffusion training Loss: 0.14173008129000664
+[diffusion][Epoch 360] diffusion training Loss: 0.14565735310316086
+[diffusion][Epoch 361] diffusion training Loss: 0.135087750852108
+[diffusion][Epoch 362] diffusion training Loss: 0.15882817655801773
+[diffusion][Epoch 363] diffusion training Loss: 0.12728100270032883
+[diffusion][Epoch 364] diffusion training Loss: 0.11781425029039383
+[diffusion][Epoch 365] diffusion training Loss: 0.15279380977153778
+[diffusion][Epoch 366] diffusion training Loss: 0.12662437185645103
+[diffusion][Epoch 367] diffusion training Loss: 0.150541789829731
+[diffusion][Epoch 368] diffusion training Loss: 0.13741373270750046
+[diffusion][Epoch 369] diffusion training Loss: 0.13143044710159302
+[diffusion][Epoch 370] diffusion training Loss: 0.14257006347179413
+[diffusion][Epoch 371] diffusion training Loss: 0.14666207134723663
+[diffusion][Epoch 372] diffusion training Loss: 0.12862714752554893
+[diffusion][Epoch 373] diffusion training Loss: 0.11493191123008728
+[diffusion][Epoch 374] diffusion training Loss: 0.1311216987669468
+[diffusion][Epoch 375] diffusion training Loss: 0.13454988226294518
+[diffusion][Epoch 376] diffusion training Loss: 0.12531626224517822
+[diffusion][Epoch 377] diffusion training Loss: 0.1694292426109314
+[diffusion][Epoch 378] diffusion training Loss: 0.14857138693332672
+[diffusion][Epoch 379] diffusion training Loss: 0.1393394097685814
+[diffusion][Epoch 380] diffusion training Loss: 0.13564258813858032
+[diffusion][Epoch 381] diffusion training Loss: 0.13802041485905647
+[diffusion][Epoch 382] diffusion training Loss: 0.12989799305796623
+[diffusion][Epoch 383] diffusion training Loss: 0.13277797773480415
+[diffusion][Epoch 384] diffusion training Loss: 0.13907009363174438
+[diffusion][Epoch 385] diffusion training Loss: 0.1345551274716854
+[diffusion][Epoch 386] diffusion training Loss: 0.14381197094917297
+[diffusion][Epoch 387] diffusion training Loss: 0.13459089025855064
+[diffusion][Epoch 388] diffusion training Loss: 0.14452334493398666
+[diffusion][Epoch 389] diffusion training Loss: 0.13008740171790123
+[diffusion][Epoch 390] diffusion training Loss: 0.12804709374904633
+[diffusion][Epoch 391] diffusion training Loss: 0.13463521748781204
+[diffusion][Epoch 392] diffusion training Loss: 0.11950773373246193
+[diffusion][Epoch 393] diffusion training Loss: 0.12262095138430595
+[diffusion][Epoch 394] diffusion training Loss: 0.13988327234983444
+[diffusion][Epoch 395] diffusion training Loss: 0.11948855593800545
+[diffusion][Epoch 396] diffusion training Loss: 0.13611530512571335
+[diffusion][Epoch 397] diffusion training Loss: 0.11278022453188896
+[diffusion][Epoch 398] diffusion training Loss: 0.15660031139850616
+[diffusion][Epoch 399] diffusion training Loss: 0.12885720282793045
+[diffusion][Epoch 400] diffusion training Loss: 0.1325971633195877
+[diffusion][Epoch 401] diffusion training Loss: 0.15773991495370865
+[diffusion][Epoch 402] diffusion training Loss: 0.13241292908787727
+[diffusion][Epoch 403] diffusion training Loss: 0.14337676763534546
+[diffusion][Epoch 404] diffusion training Loss: 0.12622245773673058
+[diffusion][Epoch 405] diffusion training Loss: 0.13863828778266907
+[diffusion][Epoch 406] diffusion training Loss: 0.10795901343226433
+[diffusion][Epoch 407] diffusion training Loss: 0.12946677953004837
+[diffusion][Epoch 408] diffusion training Loss: 0.1165308728814125
+[diffusion][Epoch 409] diffusion training Loss: 0.13183514401316643
+[diffusion][Epoch 410] diffusion training Loss: 0.14121012762188911
+[diffusion][Epoch 411] diffusion training Loss: 0.1384560391306877
+[diffusion][Epoch 412] diffusion training Loss: 0.1309097446501255
+[diffusion][Epoch 413] diffusion training Loss: 0.11793529987335205
+[diffusion][Epoch 414] diffusion training Loss: 0.118210818618536
+[diffusion][Epoch 415] diffusion training Loss: 0.15555110573768616
+[diffusion][Epoch 416] diffusion training Loss: 0.13241717219352722
+[diffusion][Epoch 417] diffusion training Loss: 0.14091972261667252
+[diffusion][Epoch 418] diffusion training Loss: 0.1327529400587082
+[diffusion][Epoch 419] diffusion training Loss: 0.12926825508475304
+[diffusion][Epoch 420] diffusion training Loss: 0.10083494707942009
+[diffusion][Epoch 421] diffusion training Loss: 0.10934603214263916
+[diffusion][Epoch 422] diffusion training Loss: 0.13853980600833893
+[diffusion][Epoch 423] diffusion training Loss: 0.10625933483242989
+[diffusion][Epoch 424] diffusion training Loss: 0.1196315549314022
+[diffusion][Epoch 425] diffusion training Loss: 0.1254650503396988
+[diffusion][Epoch 426] diffusion training Loss: 0.11689455434679985
+[diffusion][Epoch 427] diffusion training Loss: 0.10111003741621971
+[diffusion][Epoch 428] diffusion training Loss: 0.11319949850440025
+[diffusion][Epoch 429] diffusion training Loss: 0.11167294159531593
+[diffusion][Epoch 430] diffusion training Loss: 0.10329080000519753
+[diffusion][Epoch 431] diffusion training Loss: 0.12508605048060417
+[diffusion][Epoch 432] diffusion training Loss: 0.10676505416631699
+[diffusion][Epoch 433] diffusion training Loss: 0.11209266260266304
+[diffusion][Epoch 434] diffusion training Loss: 0.11800148338079453
+[diffusion][Epoch 435] diffusion training Loss: 0.12494239583611488
+[diffusion][Epoch 436] diffusion training Loss: 0.13129648566246033
+[diffusion][Epoch 437] diffusion training Loss: 0.13689600676298141
+[diffusion][Epoch 438] diffusion training Loss: 0.12596284598112106
+[diffusion][Epoch 439] diffusion training Loss: 0.1331467553973198
+[diffusion][Epoch 440] diffusion training Loss: 0.12255390733480453
+[diffusion][Epoch 441] diffusion training Loss: 0.10999708250164986
+[diffusion][Epoch 442] diffusion training Loss: 0.13131697475910187
+[diffusion][Epoch 443] diffusion training Loss: 0.1114208996295929
+[diffusion][Epoch 444] diffusion training Loss: 0.12526774033904076
+[diffusion][Epoch 445] diffusion training Loss: 0.11553361266851425
+[diffusion][Epoch 446] diffusion training Loss: 0.11496540531516075
+[diffusion][Epoch 447] diffusion training Loss: 0.10924521088600159
+[diffusion][Epoch 448] diffusion training Loss: 0.10932767391204834
+[diffusion][Epoch 449] diffusion training Loss: 0.11280927434563637
+[diffusion][Epoch 450] diffusion training Loss: 0.11691343784332275
+[diffusion][Epoch 451] diffusion training Loss: 0.10221529006958008
+[diffusion][Epoch 452] diffusion training Loss: 0.11504524201154709
+[diffusion][Epoch 453] diffusion training Loss: 0.11370596662163734
+[diffusion][Epoch 454] diffusion training Loss: 0.11261208727955818
+[diffusion][Epoch 455] diffusion training Loss: 0.10220158472657204
+[diffusion][Epoch 456] diffusion training Loss: 0.09879687428474426
+[diffusion][Epoch 457] diffusion training Loss: 0.10706106945872307
+[diffusion][Epoch 458] diffusion training Loss: 0.1267368160188198
+[diffusion][Epoch 459] diffusion training Loss: 0.1086091510951519
+[diffusion][Epoch 460] diffusion training Loss: 0.10676322877407074
+[diffusion][Epoch 461] diffusion training Loss: 0.11607775092124939
+[diffusion][Epoch 462] diffusion training Loss: 0.12062019482254982
+[diffusion][Epoch 463] diffusion training Loss: 0.13627631217241287
+[diffusion][Epoch 464] diffusion training Loss: 0.11158391833305359
+[diffusion][Epoch 465] diffusion training Loss: 0.11651696264743805
+[diffusion][Epoch 466] diffusion training Loss: 0.10750259831547737
+[diffusion][Epoch 467] diffusion training Loss: 0.10792315751314163
+[diffusion][Epoch 468] diffusion training Loss: 0.12681994587183
+[diffusion][Epoch 469] diffusion training Loss: 0.13588880747556686
+[diffusion][Epoch 470] diffusion training Loss: 0.11804263666272163
+[diffusion][Epoch 471] diffusion training Loss: 0.10882377997040749
+[diffusion][Epoch 472] diffusion training Loss: 0.09661345556378365
+[diffusion][Epoch 473] diffusion training Loss: 0.11226282268762589
+[diffusion][Epoch 474] diffusion training Loss: 0.09939788654446602
+[diffusion][Epoch 475] diffusion training Loss: 0.12034662067890167
+[diffusion][Epoch 476] diffusion training Loss: 0.10574490576982498
+[diffusion][Epoch 477] diffusion training Loss: 0.11149553209543228
+[diffusion][Epoch 478] diffusion training Loss: 0.13032148778438568
+[diffusion][Epoch 479] diffusion training Loss: 0.10975855216383934
+[diffusion][Epoch 480] diffusion training Loss: 0.09863375499844551
+[diffusion][Epoch 481] diffusion training Loss: 0.11468546837568283
+[diffusion][Epoch 482] diffusion training Loss: 0.11482752487063408
+[diffusion][Epoch 483] diffusion training Loss: 0.10792571306228638
+[diffusion][Epoch 484] diffusion training Loss: 0.09594524279236794
+[diffusion][Epoch 485] diffusion training Loss: 0.11748071014881134
+[diffusion][Epoch 486] diffusion training Loss: 0.10616164654493332
+[diffusion][Epoch 487] diffusion training Loss: 0.11895006895065308
+[diffusion][Epoch 488] diffusion training Loss: 0.12163736671209335
+[diffusion][Epoch 489] diffusion training Loss: 0.1190173290669918
+[diffusion][Epoch 490] diffusion training Loss: 0.09955168887972832
+[diffusion][Epoch 491] diffusion training Loss: 0.12013893574476242
+[diffusion][Epoch 491] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 491] ========input auto_encoder_model accuracy:[0.6570397111913358, 0.6498194945848376, 0.6606498194945848, 0.6425992779783394, 0.6606498194945848, 0.6498194945848376, 0.6570397111913358, 0.6570397111913358, 0.6498194945848376, 0.6570397111913358]========
+[diffusion][Epoch 491] ========best input auto_encoder_model accuracy:0.6606498194945848========
+[diffusion][Epoch 491] ---------------------------------
+[diffusion][Epoch 491] Test the AE auto_encoder_model
+[diffusion][Epoch 491] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 491] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 491] AE reconstruction auto_encoder_models accuracy:[0.6353790613718412, 0.6389891696750902, 0.6498194945848376, 0.6425992779783394, 0.6534296028880866, 0.6425992779783394, 0.6425992779783394, 0.6353790613718412, 0.6462093862815884, 0.6606498194945848]
+[diffusion][Epoch 491] AE reconstruction auto_encoder_models best accuracy:0.6606498194945848
+[diffusion][Epoch 491] ---------------------------------
+[diffusion][Epoch 491] Diffusion reconstruction accuracy:[0.6353790613718412, 0.6425992779783394, 0.6570397111913358, 0.6425992779783394, 0.6570397111913358, 0.6353790613718412, 0.6353790613718412, 0.6353790613718412, 0.6462093862815884, 0.6462093862815884]
+[diffusion][Epoch 491] Diffusion reconstruction best accuracy:0.6570397111913358
+[diffusion][Epoch 491] ---------------------------------
+[diffusion][Epoch 492] diffusion training Loss: 0.13180560618638992
+[diffusion][Epoch 492] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 492] ---------------------------------
+[diffusion][Epoch 492] Test the AE auto_encoder_model
+[diffusion][Epoch 492] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 492] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 492] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 492] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 492] ---------------------------------
+[diffusion][Epoch 492] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6534296028880866, 0.6570397111913358, 0.6353790613718412, 0.6498194945848376, 0.6462093862815884, 0.6389891696750902, 0.6534296028880866, 0.6425992779783394, 0.6534296028880866]
+[diffusion][Epoch 492] Diffusion reconstruction best accuracy:0.6570397111913358
+[diffusion][Epoch 492] ---------------------------------
+[diffusion][Epoch 493] diffusion training Loss: 0.12045710906386375
+[diffusion][Epoch 493] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 493] ---------------------------------
+[diffusion][Epoch 493] Test the AE auto_encoder_model
+[diffusion][Epoch 493] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 493] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 493] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 493] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 493] ---------------------------------
+[diffusion][Epoch 493] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6570397111913358, 0.6642599277978339, 0.6353790613718412, 0.6570397111913358, 0.6498194945848376, 0.6462093862815884, 0.6498194945848376, 0.6534296028880866, 0.6462093862815884]
+[diffusion][Epoch 493] Diffusion reconstruction best accuracy:0.6642599277978339
+[diffusion][Epoch 493] ---------------------------------
+[diffusion][Epoch 494] diffusion training Loss: 0.11088743060827255
+[diffusion][Epoch 494] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 494] ---------------------------------
+[diffusion][Epoch 494] Test the AE auto_encoder_model
+[diffusion][Epoch 494] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 494] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 494] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 494] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 494] ---------------------------------
+[diffusion][Epoch 494] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6534296028880866, 0.6606498194945848, 0.628158844765343, 0.6534296028880866, 0.6498194945848376, 0.6498194945848376, 0.6534296028880866, 0.6498194945848376, 0.6462093862815884]
+[diffusion][Epoch 494] Diffusion reconstruction best accuracy:0.6606498194945848
+[diffusion][Epoch 494] ---------------------------------
+[diffusion][Epoch 495] diffusion training Loss: 0.10252128541469574
+[diffusion][Epoch 495] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 495] ---------------------------------
+[diffusion][Epoch 495] Test the AE auto_encoder_model
+[diffusion][Epoch 495] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 495] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 495] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 495] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 495] ---------------------------------
+[diffusion][Epoch 495] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6570397111913358, 0.6570397111913358, 0.631768953068592, 0.6570397111913358, 0.6498194945848376, 0.6425992779783394, 0.6498194945848376, 0.6534296028880866, 0.6462093862815884]
+[diffusion][Epoch 495] Diffusion reconstruction best accuracy:0.6570397111913358
+[diffusion][Epoch 495] ---------------------------------
+[diffusion][Epoch 496] diffusion training Loss: 0.0974714457988739
+[diffusion][Epoch 496] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 496] ---------------------------------
+[diffusion][Epoch 496] Test the AE auto_encoder_model
+[diffusion][Epoch 496] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 496] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 496] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 496] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 496] ---------------------------------
+[diffusion][Epoch 496] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6534296028880866, 0.6606498194945848, 0.6389891696750902, 0.6534296028880866, 0.6462093862815884, 0.6389891696750902, 0.6606498194945848, 0.631768953068592, 0.6462093862815884]
+[diffusion][Epoch 496] Diffusion reconstruction best accuracy:0.6606498194945848
+[diffusion][Epoch 496] ---------------------------------
+[diffusion][Epoch 497] diffusion training Loss: 0.09098353609442711
+[diffusion][Epoch 497] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 497] ---------------------------------
+[diffusion][Epoch 497] Test the AE auto_encoder_model
+[diffusion][Epoch 497] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 497] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 497] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 497] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 497] ---------------------------------
+[diffusion][Epoch 497] Diffusion reconstruction accuracy:[0.6534296028880866, 0.6570397111913358, 0.6606498194945848, 0.631768953068592, 0.6462093862815884, 0.6498194945848376, 0.6389891696750902, 0.6570397111913358, 0.6462093862815884, 0.6498194945848376]
+[diffusion][Epoch 497] Diffusion reconstruction best accuracy:0.6606498194945848
+[diffusion][Epoch 497] ---------------------------------
+[diffusion][Epoch 498] diffusion training Loss: 0.08532225713133812
+[diffusion][Epoch 498] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 498] ---------------------------------
+[diffusion][Epoch 498] Test the AE auto_encoder_model
+[diffusion][Epoch 498] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 498] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 498] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 498] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 498] ---------------------------------
+[diffusion][Epoch 498] Diffusion reconstruction accuracy:[0.6570397111913358, 0.6606498194945848, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6498194945848376, 0.6462093862815884, 0.6570397111913358, 0.6425992779783394, 0.6534296028880866]
+[diffusion][Epoch 498] Diffusion reconstruction best accuracy:0.6606498194945848
+[diffusion][Epoch 498] ---------------------------------
+[diffusion][Epoch 499] diffusion training Loss: 0.08009032532572746
+[diffusion][Epoch 499] val_param shape:torch.Size([10, 18432])
+[diffusion][Epoch 499] ---------------------------------
+[diffusion][Epoch 499] Test the AE auto_encoder_model
+[diffusion][Epoch 499] latent shape:torch.Size([10, 4, 29])
+[diffusion][Epoch 499] ae params shape:torch.Size([10, 18432])
+[diffusion][Epoch 499] AE reconstruction auto_encoder_models accuracy:[0.6425992779783394, 0.6642599277978339, 0.6606498194945848, 0.6353790613718412, 0.6570397111913358, 0.6534296028880866, 0.6498194945848376, 0.6642599277978339, 0.6425992779783394, 0.6642599277978339]
+[diffusion][Epoch 499] AE reconstruction auto_encoder_models best accuracy:0.6642599277978339
+[diffusion][Epoch 499] ---------------------------------
+[diffusion][Epoch 499] Diffusion reconstruction accuracy:[0.6534296028880866, 0.6570397111913358, 0.6570397111913358, 0.6353790613718412, 0.6534296028880866, 0.6498194945848376, 0.6462093862815884, 0.6534296028880866, 0.6462093862815884, 0.6462093862815884]
+[diffusion][Epoch 499] Diffusion reconstruction best accuracy:0.6570397111913358
+[diffusion][Epoch 499] ---------------------------------

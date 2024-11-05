@@ -1,0 +1,228 @@
+args_bert_1:
+  gpu_id: 0
+  # ae training parameters
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth
+  
+  # ddpm training parameters
+  ddpm_test: true
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.7999_end_epoch.12000/clip_pdiff_model/clip_cond_diffusion_model_11999.pth
+  ddpm_end_epoch: 12000
+
+  # dataset path
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/
+
+  # dataset
+  rank: 1
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]] # which layer to use
+  model: bert-base-uncased # which model to use in lora
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']] # which lora dataset to use
+
+
+
+
+args_bert_2:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_2/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_9999.pth
+
+  ddpm_test: true
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_2/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.8000/clip_pdiff_model/clip_cond_diffusion_model_7999.pth
+  
+  ddpm_end_epoch: 12000
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/
+
+  rank: 2
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: bert-base-uncased
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+args_bert_16:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_16/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.64_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth
+
+  ddpm_test: true
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_16/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.64_lr.0.001_patience.5000_start_epoch.5999_end_epoch.10000/clip_pdiff_model/clip_cond_diffusion_model_9999.pth
+
+  ddpm_end_epoch: 12000
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/
+
+  rank: 16
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: bert-base-uncased
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+args_roberta_1:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ddpm_end_epoch: 12000
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_9999.pth
+
+  ddpm_test: false
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.8000/clip_pdiff_model/clip_cond_diffusion_model_7999.pth
+  
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/roberta-base
+
+  rank: 1
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: roberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+args_roberta_2:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ddpm_end_epoch: 12000
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_2/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.999_end_epoch.10000/model/auto_encoder_model_9999.pth
+
+  ddpm_test: false
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_2/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.8000/clip_pdiff_model/clip_cond_diffusion_model_7999.pth
+
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/roberta-base
+
+  rank: 2
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: roberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+
+
+args_roberta_4:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 10
+  ae_lr: 0.001
+
+  ddpm_end_epoch: 12000
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_4/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_9999.pth
+
+  ddpm_test: false
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/roberta-base/lora_r_4/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.8000/clip_pdiff_model/clip_cond_diffusion_model_5999.pth
+
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/roberta-base
+
+  rank: 4
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: roberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+args_deberta_r_1:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 500
+  ae_lr: 0.001
+
+  ae_test: true
+  load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/deberta-base/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth
+
+  ddpm_test: true
+  load_ddpm_checkpoint: /data3/user/jin509/lora-pdiff/dataset/deberta-base/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.8000/clip_pdiff_model/clip_cond_diffusion_model_7999.pth
+
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/deberta-base
+  
+  rank: 1
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: deberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+args_deberta_r_2:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 500
+  ae_lr: 0.001
+
+  ae_test: false
+  load_ae_checkpoint: null
+
+  ddpm_test: false
+  load_ddpm_checkpoint: null
+
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/deberta-base
+  
+  rank: 2
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: deberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+
+
+
+args_deberta_r_4:
+  gpu_id: 0
+  ae_batch_size: 256
+  patience: 5000
+  ae_epochs: 10000
+  ae_save_epoch: 1000
+  ae_eval_epoch: 500
+  ae_lr: 0.001
+
+  ae_test: false
+  load_ae_checkpoint: null
+
+  ddpm_test: false
+  load_ddpm_checkpoint: null
+
+  dataset_path: /data3/user/jin509/lora-pdiff/dataset/deberta-base
+  
+  rank: 4
+  layer_num: [[11,10,9,8,7,6,5,4,3,2,1,0]]
+  model: deberta-base
+  datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]

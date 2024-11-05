@@ -1,0 +1,36 @@
+training_parameters:
+  lr: 1e-3
+  batch_size: 200
+  epochs: 30000
+  
+  ae_eval_epoch: 1000
+  ae_save_epoch: 2000
+
+  weight_decay: 2e-6
+  ae_test: true
+  load_ae_checkpoint: null
+  model: 'bert-base-uncased'
+
+model_parameters:
+  model_type: 'medium'
+  input_noise_factor: 0.001
+  latent_noise_factor: 0.1
+  
+
+wandb_parameters:
+  project: 'p-diff'
+  run_name: 'ae_test'
+
+
+device:
+  gpu_id: 0
+
+
+data_parameters:
+  dataset_path: dataset/bert-base-uncased
+  rank: 2
+  layer_num: [11,10,9,8,7,6,5,4,3,2,1,0]
+
+
+glue_test_parameters:
+  config_path: 'config/multiple/glue.json'

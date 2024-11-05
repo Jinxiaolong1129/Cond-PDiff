@@ -1,0 +1,2246 @@
+{
+    "bert-base-uncased":
+    {
+        "1":    
+        {
+            "rte":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "bert-base-uncased",
+    
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "2":    
+        {
+            "rte":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "4":    
+        {
+            "rte":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "16":    
+        {
+            "rte":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "bert-base-uncased",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        }
+    },
+
+    "roberta-base":
+    {
+        "1":    
+        {
+            "rte":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "roberta-base",
+    
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "2":    
+        {
+            "rte":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "4":    
+        {
+            "rte":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "16":    
+        {
+            "rte":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "roberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        }
+    },
+
+    "deberta-base":
+    {
+        "1":    
+        {
+            "rte":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 1,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+    
+                "model_name_or_path": "microsoft/deberta-base",
+    
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+    
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+    
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "2":    
+        {
+            "rte":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 2,
+                "lora_alpha": 8,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "4":    
+        {
+            "rte":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 4,
+                "lora_alpha": 16,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        },
+        "16":    
+        {
+            "rte":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "rte",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/rte/",
+                "seed": 42,
+                "logging_dir": "log/rte/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "sst2":{
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "sst2",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/sst2/",
+                "seed": 42,
+                "logging_dir": "log/sst2/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/qnli/",
+                "seed": 42,
+                "logging_dir": "log/qnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mnli": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mnli",
+                "metric_for_best_model": "accuracy",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/mnli/",
+                "seed": 42,
+                "logging_dir": "log/mnli/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "cola": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "cola",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "qqp": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "qqp",
+                "metric_for_best_model": "matthews_correlation",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "mrpc": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "mrpc",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            },
+            "stsb": {
+                "lora_r": 16,
+                "lora_alpha": 32,
+                "lora_dropout": 0.1,
+                "per_device_eval_batch_size": 512,
+                
+        
+                "model_name_or_path": "microsoft/deberta-base",
+        
+                "task_name": "stsb",
+                "metric_for_best_model": "combined_score",
+        
+                "do_eval": true,
+                "do_predict": false,
+                
+                "fp16": true,
+                "max_seq_length": 128,
+                "output_dir": "log/cola/",
+                "seed": 42,
+                "logging_dir": "log/cola/",
+        
+                "gpu_list": "0,1,2,3"
+            }
+        }
+    }
+
+}

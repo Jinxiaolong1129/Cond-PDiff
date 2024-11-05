@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "bert_16 ae_train_multi_norm",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ae_train_multi_norm.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ae_config",
+                "config/multiple/ae_training.yaml",
+                "--ae_bash",
+                "config/multiple/ae_bash.yaml",
+                "--ae_bash_args_num",
+                "bert_16"
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,7,4,5",
+                "PYTHONPATH": "${workspaceFolder}/src:${env:PYTHONPATH}"
+            },
+            "justMyCode": false
+        },
+    ]
+}

@@ -1,0 +1,1568 @@
+stty: 'standard input': Inappropriate ioctl for device
+2024-11-04 20:41:33,808 - INFO - CUDA_VISIBLE_DEVICES: 0,1,2,3
+2024-11-04 20:41:33,810 - INFO - layer_num: [[11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
+2024-11-04 20:41:33,810 - INFO - datasets_para: [['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']]
+2024-11-04 20:41:33,810 - INFO - gpu_id: 0
+2024-11-04 20:41:33,810 - INFO - batch_size: 256
+2024-11-04 20:41:33,810 - INFO - epochs: 10000
+2024-11-04 20:41:33,810 - INFO - ae_test: True
+2024-11-04 20:41:33,810 - INFO - load_ae_checkpoint: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth
+2024-11-04 20:41:33,810 - INFO - lr: 0.001
+2024-11-04 20:41:33,810 - INFO - patience: 5000
+transformers.__file__: /home/jin509/para_diff/lora-cond-p-diff/src/transformers/__init__.py 
+ peft.__file_: /home/jin509/para_diff/lora-cond-p-diff/src/peft/__init__.py
+=====================================
+layer number: [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+datasets: ['sst2', 'rte', 'mrpc', 'cola', 'qnli', 'stsb']
+=====================================
+wandb: Tracking run with wandb version 0.12.21
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+/home/jin509/para_diff/lora-cond-p-diff/dataset/weights_dataset.py:73: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  dataset_data = torch.tensor(dataset_matrix, dtype=torch.float32)
+/home/jin509/para_diff/lora-cond-p-diff/dataset/weights_dataset.py:79: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return (torch.tensor(data_row, dtype=torch.float32) - mean) / std
+2024-11-04 20:41:40,305 - INFO - Load model: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth
+2024-11-04 20:41:40,305 - INFO - Start epoch: 8999
+2024-11-04 20:41:40,321 - INFO - Loaded checkpoint from /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.0_end_epoch.10000/model/auto_encoder_model_8999.pth with best metric -inf
+2024-11-04 20:41:40,324 - INFO - Model save dir: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.8999_end_epoch.10000/model
+2024-11-04 20:41:40,325 - INFO - Log dir: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/norm.exp_batch.256_lr.0.001_patience.5000_start_epoch.8999_end_epoch.10000/log
+/home/jin509/anaconda3/envs/pdiff/lib/python3.8/site-packages/torch/nn/modules/instancenorm.py:80: UserWarning: input's size at dim=1 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+2024-11-04 20:41:40,535 - INFO - =========== ddpm diffusion model | num_conditions: 6 ===========
+/home/jin509/anaconda3/envs/pdiff/lib/python3.8/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2024-11-04 20:41:41,737 - INFO - [diffusion][Epoch 0] Load model: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.7999_end_epoch.12000/clip_pdiff_model/clip_cond_diffusion_model_11999.pth
+2024-11-04 20:41:41,761 - INFO - [diffusion][Epoch 0] Loaded checkpoint from /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.7999_end_epoch.12000/clip_pdiff_model/clip_cond_diffusion_model_11999.pth
+2024-11-04 20:41:41,763 - INFO - [diffusion][Epoch 0] ========================================
+2024-11-04 20:41:41,768 - INFO - Model save dir: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.11999_end_epoch.12000/clip_pdiff_model
+2024-11-04 20:41:41,768 - INFO - Log dir: /data3/user/jin509/lora-pdiff/dataset/bert-base-uncased/lora_r_1/para_dataset_sst2_rte_mrpc_cola_qnli_stsb/layer_11_10_9_8_7_6_5_4_3_2_1_0/clip_pdiff_exp_batch.256_lr.0.001_patience.5000_start_epoch.11999_end_epoch.12000/log
+2024-11-04 20:41:41,768 - INFO - [diffusion][Epoch 0] Testing started!
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:03,808 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:03,812 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:03,888 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:03,890 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:03,895 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:03,895 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:03,896 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:03,896 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:03,896 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:03,897 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:03,899 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:03,973 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:04,059 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:04,059 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:04,677 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:04,679 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:04,682 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:04,682 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:04,682 >>   Batch size = 2048
+/home/jin509/anaconda3/envs/pdiff/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+=====================================
+Test the auto_encoder_model
+training_parameters:
+  ddpm_eval_epoch: 10
+  ddpm_save_epoch: 1000
+  ddpm_start_epoch: 1
+  ddpm_end_epoch: 8000
+  batch_size: 256
+  lr: 0.001
+  patience: 5000
+  optimizer: Adam
+  loss_function: MSE
+  metrics:
+  - accuracy
+  weight_decay: 2.0e-06
+  ddpm_test: false
+  test_similarity: false
+model_mean_type: eps
+model_var_type: fixedlarge
+loss_type: mse
+model_parameters:
+  in_channel: 1
+  in_dim: 12
+  num_conditions: 2
+  cond_emb_size: 512
+beta_schedule:
+  start: 0.0001
+  end: 0.02
+  schedule: linear
+  n_timestep: 1000
+glue_test_parameters:
+  config_path: config/multiple/glue.json
+
+=====================================
+Test ddpm model
+The tensors are equal.
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 20.91it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:06,931 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:06,932 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:06,932 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:10,282 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:10,284 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:10,355 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:10,358 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:10,361 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:10,361 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:10,362 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:10,362 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:10,362 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:10,363 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:10,365 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:10,418 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:10,551 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:10,551 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:11,493 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:11,495 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:11,497 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:11,497 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:11,497 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6789
+  eval_runtime            = 0:00:02.16
+  eval_samples            =        277
+  eval_samples_per_second =    127.828
+  eval_steps_per_second   =      0.461
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 14.14it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:11,859 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:11,859 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:11,860 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:15,053 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:15,056 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:15,122 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:15,124 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:15,128 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:15,128 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:15,128 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:15,128 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:15,128 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:15,130 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:15,132 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:15,188 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:15,287 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:15,287 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:15,901 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:15,903 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:15,905 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:15,905 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:15,905 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6788
+  eval_runtime            = 0:00:00.26
+  eval_samples            =        277
+  eval_samples_per_second =   1049.331
+  eval_steps_per_second   =      3.788
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 22.30it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:16,505 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:16,505 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:16,506 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:20,060 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:20,063 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:20,118 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:20,121 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:20,125 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:20,125 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:20,125 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:20,125 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:20,125 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:20,127 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:20,129 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:20,185 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:20,293 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:20,293 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:20,908 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:20,910 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:20,912 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:20,913 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:20,913 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6787
+  eval_runtime            = 0:00:00.53
+  eval_samples            =        277
+  eval_samples_per_second =    520.758
+  eval_steps_per_second   =       1.88
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 21.99it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:21,239 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:21,239 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:21,240 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:24,492 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:24,494 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:24,561 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:24,563 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:24,567 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:24,567 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:24,567 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:24,567 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:24,567 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:24,569 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:24,571 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:24,624 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:24,720 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:24,720 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:25,291 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:25,293 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:25,297 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:25,297 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:25,297 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6787
+  eval_runtime            = 0:00:00.27
+  eval_samples            =        277
+  eval_samples_per_second =     1013.1
+  eval_steps_per_second   =      3.657
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 22.92it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:25,639 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:25,640 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:25,640 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:28,949 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:28,951 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:29,010 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:29,013 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:29,016 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:29,016 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:29,016 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:29,017 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:29,017 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:29,018 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:29,020 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:29,108 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:29,220 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:29,220 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:29,762 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:29,764 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:29,766 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:29,766 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:29,766 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6788
+  eval_runtime            = 0:00:00.27
+  eval_samples            =        277
+  eval_samples_per_second =   1003.526
+  eval_steps_per_second   =      3.623
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 27.51it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:30,117 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:30,117 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:30,119 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:33,752 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:33,754 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:33,815 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:33,818 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:33,821 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:33,821 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:33,821 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:33,821 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:33,821 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:33,823 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:33,825 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:33,877 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:33,982 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:33,982 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:34,962 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:34,964 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:34,966 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:34,966 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:34,966 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6787
+  eval_runtime            = 0:00:00.28
+  eval_samples            =        277
+  eval_samples_per_second =    968.535
+  eval_steps_per_second   =      3.497
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 19.10it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:35,315 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:35,316 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:35,317 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:38,579 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:38,581 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:38,641 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:38,644 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:38,648 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:38,648 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:38,648 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:38,648 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:38,648 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:38,650 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:38,652 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:38,705 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:38,823 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:38,823 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:39,444 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:39,446 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:39,448 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:39,448 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:39,448 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6788
+  eval_runtime            = 0:00:00.27
+  eval_samples            =        277
+  eval_samples_per_second =     990.52
+  eval_steps_per_second   =      3.576
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 25.51it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:39,785 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:39,785 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:39,786 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:42,739 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:42,742 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:42,823 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:42,825 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:42,829 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:42,830 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:42,830 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:42,830 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:42,830 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:42,831 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:42,834 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:42,889 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:42,987 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:42,987 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:43,650 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:43,652 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:43,654 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:43,654 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:43,654 >>   Batch size = 2048
+
+  0% 0/1 [00:00<?, ?it/s]***** eval metrics *****
+  eval_accuracy           =     0.5704
+  eval_loss               =     0.6788
+  eval_runtime            = 0:00:00.25
+  eval_samples            =        277
+  eval_samples_per_second =    1074.72
+  eval_steps_per_second   =       3.88
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+100% 1/1 [00:00<00:00, 22.09it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:43,972 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:43,973 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:43,974 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:47,210 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:47,212 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "rte",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:47,268 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:47,270 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:47,273 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:47,273 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:47,274 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:47,274 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:47,274 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:47,275 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:47,277 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:47,329 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:47,454 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:47,454 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:48,053 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:48,055 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:48,057 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:48,057 >>   Num examples = 277
+[INFO|trainer.py:3389] 2024-11-04 20:42:48,057 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =      0.574
+  eval_loss               =     0.6787
+  eval_runtime            = 0:00:00.26
+  eval_samples            =        277
+  eval_samples_per_second =   1042.823
+  eval_steps_per_second   =      3.765
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 277
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 24.87it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:48,711 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:48,711 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:48,712 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:51,807 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:51,810 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "mrpc",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:51,875 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:51,877 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:51,881 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:51,881 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:51,881 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:51,881 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:51,881 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:51,883 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:51,885 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:51,942 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:52,077 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:52,077 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:52,666 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:52,667 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:52,669 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:52,669 >>   Num examples = 408
+[INFO|trainer.py:3389] 2024-11-04 20:42:52,669 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =      0.574
+  eval_loss               =     0.6788
+  eval_runtime            = 0:00:00.57
+  eval_samples            =        277
+  eval_samples_per_second =    478.121
+  eval_steps_per_second   =      1.726
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 408
+})]
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 23.69it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:53,097 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:53,098 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:53,098 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:56,739 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:56,741 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "mrpc",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:56,805 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:56,807 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:56,811 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:56,811 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:56,811 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:56,811 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:42:56,811 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:42:56,813 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:42:56,815 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:42:56,874 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:42:56,979 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:42:56,979 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:42:57,632 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:42:57,633 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:42:57,635 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:42:57,635 >>   Num examples = 408
+[INFO|trainer.py:3389] 2024-11-04 20:42:57,635 >>   Batch size = 2048
+***** eval metrics *****
+  eval_accuracy           =     0.8162
+  eval_combined_score     =     0.8435
+  eval_f1                 =     0.8709
+  eval_loss               =     0.4332
+  eval_runtime            = 0:00:00.35
+  eval_samples            =        408
+  eval_samples_per_second =   1147.399
+  eval_steps_per_second   =      2.812
+trainable params: 0 || all params: 109,557,506 || trainable%: 0.0
+eval_datasets: [Dataset({
+    features: ['sentence1', 'sentence2', 'label', 'idx', 'input_ids', 'token_type_ids', 'attention_mask'],
+    num_rows: 408
+})]
+/home/jin509/anaconda3/envs/pdiff/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+  0% 0/1 [00:00<?, ?it/s]
+100% 1/1 [00:00<00:00, 20.98it/s]
+[INFO|training_args.py:1902] 2024-11-04 20:42:58,076 >> PyTorch: setting up devices
+[INFO|training_args.py:1611] 2024-11-04 20:42:58,076 >> The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+[WARNING|integration_utils.py:82] 2024-11-04 20:42:58,077 >> Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+[INFO|configuration_utils.py:728] 2024-11-04 20:43:01,363 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:43:01,366 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "finetuning_task": "mrpc",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:728] 2024-11-04 20:43:01,429 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:43:01,432 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:43:01,435 >> loading file vocab.txt from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:43:01,436 >> loading file tokenizer.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:43:01,436 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:43:01,436 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2046] 2024-11-04 20:43:01,436 >> loading file tokenizer_config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json
+[INFO|configuration_utils.py:728] 2024-11-04 20:43:01,437 >> loading configuration file config.json from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/config.json
+[INFO|configuration_utils.py:791] 2024-11-04 20:43:01,439 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.39.0.dev0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|modeling_utils.py:3257] 2024-11-04 20:43:01,494 >> loading weights file model.safetensors from cache at /data3/user/jin509/hf_cache/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/model.safetensors
+[INFO|modeling_utils.py:3982] 2024-11-04 20:43:01,601 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3994] 2024-11-04 20:43:01,601 >> Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|trainer.py:602] 2024-11-04 20:43:02,161 >> Using auto half precision backend
+[INFO|trainer.py:766] 2024-11-04 20:43:02,163 >> The following columns in the evaluation set don't have a corresponding argument in `PeftModel.forward` and have been ignored: idx, sentence1, sentence2. If idx, sentence1, sentence2 are not expected by `PeftModel.forward`,  you can safely ignore this message.
+[INFO|trainer.py:3384] 2024-11-04 20:43:02,165 >> ***** Running Evaluation *****
+[INFO|trainer.py:3386] 2024-11-04 20:43:02,166 >>   Num examples = 408
+[INFO|trainer.py:3389] 2024-11-04 20:43:02,166 >>   Batch size = 2048
+/home/jin509/anaconda3/envs/pdiff/lib/python3.8/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
