@@ -1,55 +1,83 @@
 # Cond-PDiff
 
-## Installation
+This repository contains the code and resources for **Conditional Parameter Diffusion (Cond-PDiff)**, a framework designed for efficient parameter generation in neural networks.
 
-1. Clone the repository:
+---
 
-```
+## 🛠️ Installation
+
+### 1. Clone the Repository
+
+Clone the repository to your local environment:
+```bash
 git clone https://github.com/NUS-HPC-AI-Lab/Neural-Network-Diffusion.git
 ```
 
-2. Create a new Conda environment and activate it: 
+### 2. Set Up the Environment
 
-```
+Create a new Conda environment using the provided configuration file, or install necessary packages using `pip`:
+
+#### Using Conda:
+```bash
 conda env create -f environment.yml
 conda activate pdiff
 ```
 
-or install necessary package by:
-
-```
+#### Using pip:
+```bash
 pip install -r requirements.txt
 ```
 
-### **Prepare Datasets**
+---
 
-To prepare LoRA datasets, please run.
-```
+Got it! Here’s the refined version with the note included:
+
+---
+
+## 📂 Prepare Datasets
+
+To prepare **LoRA** datasets, execute the following scripts:
+
+```bash
 bash ./script/run_lora_bert.sh
 bash ./script/run_lora_deberta-base.sh
 bash ./script/run_lora_roberta-base.sh
 ```
-The GLUE benchmark parameter is in [`config/multiple/glue.json`]().
-The script is to obtain the training data of lora parameter of Cond-Pdiff. We provide our training data in [link]().
 
+The configuration for the **GLUE benchmark** can be found in [`config/multiple/glue.json`](). These scripts will generate the training data for the LoRA parameters required by Cond-PDiff.
 
-### **Model Training**
+> **Note:** 
+> Our training data and model(autoencoder / diffusion model) are available in [cond-pdiff](https://purdue0-my.sharepoint.com/:f:/g/personal/jin509_purdue_edu/Eoig8tOYZuhGukKOjbVuJ7ABUHr0NFjQAbc7P2FgA23M9w?e=XGSMTQ).
+> 
+> Before running the scripts, download the datasets and place them in the following structure:
+> ```plaintext
+> dataset/
+> ┣ bert-base-uncased/
+> ┣ deberta-base/
+> ┗ roberta-base/
+> ```
+> You may need to change `load_ae_checkpoint`, `load_ddpm_checkpoint`, `dataset_path`, according to dataset dir.
 
-To get autoencoder and diffusion model in Cond-PDiff, please run.
-The argument of training process is in [`config/multiple/ae_bash.yaml`]().
+---
 
-```
+## 🏋️ Model Training
+
+To train the autoencoder and diffusion model in **Cond-PDiff**, use the following command:
+```bash
 bash ae_train_multi_norm.sh
 ```
-**Note:** If you encounter any issues related to file paths, you may need to use `change_var.ipynb` to adjust the paths accordingly.
 
+The training parameters are specified in [`config/multiple/ae_bash.yaml`](). 
 
-### 
+> **Note:** If you encounter file path issues, use the `change_var.ipynb` notebook to adjust paths as needed.
 
-## Citation
-If you found our work useful, please consider citing us.
+---
 
-```
+## 📜 Citation
+
+If you found this work useful, please consider citing us:
+
+```bibtex
 @misc{wang2024neural,
       title={Neural Network Diffusion}, 
       author={Kai Wang and Zhaopan Xu and Yukun Zhou and Zelin Zang and Trevor Darrell and Zhuang Liu and Yang You},
